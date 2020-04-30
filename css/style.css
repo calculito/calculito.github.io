@@ -930,19 +930,12 @@ img.alignright,
 .title-area {
 	float: left;
 	width: 100%;
-	/*margin-left: 15rem;*/
-	/*margin-top: 9rem;*/
 	margin-left: 10.7%;
 	margin-top: 6.25%;
 }
 
-.header-full-width .title-area {
-	width: 100%;
-	width: 33rem;
-}
-
 .site-title {
-	font-size: 32px;
+	font-size: 26px;
 	font-weight: 400;
 	line-height: 1.2;
 	width: 100%;
@@ -963,7 +956,7 @@ img.alignright,
 }
 
 .site-description {
-	font-size: 2rem;
+	font-size: 20px;
 	font-weight: 100;
 	line-height: 1.1;
 	font-family: 'georgiaitalic';
@@ -1153,8 +1146,9 @@ img.alignright,
 
 .nav-primary {
 	/*background-color: #333;*/
+	border-bottom: rgb(38, 48, 51) 2px solid;
 	background-color: transparent;
-	margin-bottom: 1px;
+
 
 }
 
@@ -1978,242 +1972,12 @@ nav {
 /* Navigation toggles - Ensure Menu Displays when Scaled Up
 --------------------------------------------- */
 
-@media only screen and (min-width: 960px) {
 
-	nav {
-		display: block !important;
-	}
-}
-
-/* Navigation toggles - Mobile (Change max width as you see fit)
---------------------------------------------- */
-
-@media only screen and (max-width: 959px) {
-
-	.menu-toggle,
-	.sub-menu-toggle {
-		display: block;
-		font-size: 7rem;
-		font-weight: 700;
-		margin: 0 auto;
-		overflow: hidden;
-		padding: 0 2rem 2rem;
-		text-align: center;
-		visibility: visible;
-		line-height: 1;
-		width: 100%;
-	}
-
-	button.menu-toggle,
-	button.sub-menu-toggle {
-		background-color: transparent;
-		color: #59595B;
-	}
-
-	.sub-menu-toggle {
-		padding: 18px;
-		padding: 1.8rem;
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	.menu-toggle:before {
-		content: "\2261";
-	}
-
-	.menu-toggle.activated:before {
-		content: "\2191";
-	}
-
-	.sub-menu-toggle:before {
-		content: "+";
-	}
-
-	.sub-menu-toggle.activated:before {
-		content: "-";
-	}
-
-	nav {
-		
-		position: relative;
-	}
-
-	nav .wrap {
-		width: 100%;
-		padding: 0;
-	}
-
-	.genesis-nav-menu .menu-item {
-		
-		position: relative;
-		text-align: left;
-		text-align: center;
-	}
-
-	.genesis-nav-menu .menu-item:hover {
-		position: relative;
-	}
-
-	.genesis-nav-menu .sub-menu {
-		clear: both;
-		display: none;
-		opacity: 1;
-		position: static;
-		width: 100%;
-	}
-
-	.genesis-nav-menu .sub-menu a {
-		border-left: 0;
-		position: relative;
-		width: auto;
-	}
-
-	.genesis-nav-menu .sub-menu .sub-menu {
-		margin: 0;
-	}
-
-	.genesis-nav-menu .sub-menu .sub-menu a {
-		background-color: #f5f5f5;
-		padding-left: 30px;
-	}
-
-	.genesis-nav-menu .sub-menu .sub-menu .sub-menu a {
-		background-color: #fff;
-		padding-left: 40px;
-	}
-
-	.nav-primary a:hover,
-	.nav-primary .current-menu-item > a {
-		color: #333;
-	}
-
-}
 
 
 .post-edit-link {clear: both; display: block;}
 
-.sobre-eric-landing .content,
 
-	.sobre-eric-landing .content article {
-		-moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
-		-webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
-		box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
-		margin: 6rem 5.5rem 26rem 8rem;
-		padding: 4rem;
-		max-height: 178rem;
-	}
-	
-
-	.sobre-eric-landing .entry-header {
-		width: 50%;
-		float: left;
-		border-bottom: 1px solid;
-		display: block;
-		text-align: left;
-  		padding: 0 1.5rem;
-	}
-	 .entry-header {
-		width: 44%;
-		float: right;
-		border-bottom: 1px solid;
-		display: block;
-		text-align: left;
-  		padding: 0 1.5rem;
-  		clear: both;
-  		margin-left: 7.5rem;
-
-	}
-		.sobre-eric-landing .entry-header h1,
-		.mis-apartamentos-landing .entry-header h1 {
-			background: url('images/io-sobre-mi-logo-header.png') no-repeat right;
-			line-height: 2;
-		}
-		.mis-apartamentos-landing .entry-header .entry-title {
-			font-size: 2.5rem;
-		}
-
-	.sobre-eric-seccion,
-	.mis-apartamentos-seccion {
-		width: 50%;
-		display: block;
-	}
-
-
-
-	.sobre-eric-derecha,
-	.mis-apartamentos-derecha {
-		float: right;
-	}
-
-
-	.sobre-eric-texto {
-		padding: 3.5rem 4rem 4rem 1.5rem;
-	}
-		.sobre-eric-texto p {
-			padding-right: 12rem;
-		}
-
-
-	.sobre-eric-imagen-1 {
-		margin-top: -46.5rem;
-		text-align: right;
-		margin-right: 2rem;
-	}
-	.sobre-eric-imagen-2 {
-		margin-top: -23.5rem;
-		text-align: right;
-		margin-right: 2rem;
-	}
-	.sobre-eric-imagen-3 {
-		background: url('images/io-sobre-mi-apartamento.png') no-repeat left;
-		height: 63rem;
-		margin-left: -12rem;
-		width: 100%;
-	}
-	.sobre-eric-texto-3 {
-		margin-top: -63rem;
-		margin-right: -10rem;
-	}
-	.sobre-eric-imagen.sobre-eric-imagen-4 {
-		margin-top: -24rem;
-		margin-right: -23.4rem;
-	}
-	.sobre-eric-imagenes-bottom {
-		display: inline-block;
-		text-align: center;
-  		width: 100%;
-  		margin-top: -14rem;
-	}
-		.sobre-eric-imagenes-bottom img {
-			display: inline-block;
-		}
-		.sobre-eric-imagenes-bottom img:nth-child(1) {
-			margin-right: -2.5rem;
-		}
-		.sobre-eric-imagenes-bottom img:nth-child(2) {
-			margin-left: -2.5rem;
-		}
-
-
-
-
-	/*	Custom CSS para el plugin de carousel */
-	.soliloquy-container .soliloquy-pager {
-		display: none;
-	}
-	.soliloquy-container .soliloquy-prev {
-		height: 6.5rem !important;
-		width: 6.5rem !important;
-		left: -9rem !important;
-		background: url('images/left-arrow.png') no-repeat scroll 50% 50% transparent !important;
-	}
-	.soliloquy-container .soliloquy-next {
-		height: 6.5rem !important;
-		width: 6.5rem !important;
-		right: -9rem !important;
-		background: url('images/right-arrow.png') no-repeat scroll 50% 50% transparent !important;
-	}
 
 
 
@@ -2251,25 +2015,50 @@ nav {
 	.pagination {
 		max-width: 140rem;
 	}
-	.title-area {
-		width: 500px;
+	.nav-primary .genesis-nav-menu a {
+		font-size: 2rem;
 	}
+
+	.site-title {
+		font-size: 26px;
+	}
+	.site-description {
+		font-size: 20px;
+}
 }
 
-@media only screen and (max-width: 1399px) and (min-width: 1280px) {
-	.title-area {
-		width: 500px;
-	}
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
 
+	.nav-primary .genesis-nav-menu a {
+		font-size: 2rem;
+	}
+	.site-title {
+		font-size: 26px;
+	}
+	.site-description {
+		font-size: 20px;
+
+}
 }
 	
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
 
 	.site-header {
 		background-size: cover;
-		min-height: 0;
+		height: 200px;
+		
+	}
+	.nav-primary .genesis-nav-menu a {
+		font-size: 1.6rem;
+	}
+	.site-title {
+		font-size: 24px;
+	}
+	.si
+	.site-description {
+		font-size: 18px;
 	}
 		.site-header .wrap {
 			margin: 0;
@@ -2359,8 +2148,7 @@ nav {
 		width: 100%;
 	}
 
-	.sidebar-primary,
-	.title-area {
+	.sidebar-primary {
 		width: 500px;
 	}
 
@@ -2369,13 +2157,38 @@ nav {
 	}
 }
 
-@media only screen and (max-width: 960px) {
-	.title-area {
-		width: 500px;
+@media only screen and (min-width: 960px) {
+	.nav-primary .genesis-nav-menu a {
+		font-size: 1.5rem;
 	}
+	nav {
+		display: block !important;
+	}
+	.site-title {
+		font-size: 22px;
+	}
+	.site-description {
+		font-size: 18px;
+	}
+}
+
+/* Navigation toggles - Mobile (Change max width as you see fit)
+--------------------------------------------- */
+@media only screen and (max-width: 960px) {
+	.nav-primary .genesis-nav-menu a {
+		font-size: 1.4rem;
+	}
+	.site-title {
+		font-size: 20px;
+	}
+	.site-description {
+		font-size: 16px;
+	}
+
+	
 	.site-header {
 		background-size: cover;
-		min-height: 0;
+		height: 200px;
 	}
 		.site-header .wrap {
 			margin: 0;
@@ -2411,18 +2224,16 @@ nav {
 		width: 100%;
 	}
 
-	.site-header {
-		min-height: 25.8rem;
-	}
+	/*.site-header {
+		min-height: 300px;
+	}*/
 	.site-header .wrap {
 		padding: 0 5%;
 	}
 		.logo-area {
 			margin: 0;
 		}
-		.title-area {
-			margin-top: 7rem;
-		}
+
 		.site-header .widget-area {
 			margin-top: -19.5rem;
 		}
@@ -2439,6 +2250,7 @@ nav {
 
 	.genesis-nav-menu,
 	.site-header .search-form {
+		position: relative;
 		text-align: center;
 	}
 
@@ -2494,13 +2306,117 @@ nav {
 	.site-inner {
 		padding-left: 0;
 	}
+	.genesis-nav-menu,
+	.site-header .search-form {
+		text-align: center;
+	}
 
 
 }
+@media only screen and (max-width: 959px) {
+
+
+	.menu-toggle,
+	.sub-menu-toggle {
+		display: block;
+		font-size: 7rem;
+		font-weight: 700;
+		margin: 0 auto;
+		overflow: hidden;
+		padding: 0 2rem 2rem;
+		text-align: center;
+		visibility: visible;
+		line-height: 1;
+		width: 100%;
+	}
+
+	button.menu-toggle,
+	button.sub-menu-toggle {
+		background-color: transparent;
+		color: #59595B;
+	}
+
+	.sub-menu-toggle {
+		padding: 18px;
+		padding: 1.8rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.menu-toggle:before {
+		content: "\2261";
+	}
+
+	.menu-toggle.activated:before {
+		content: "\2191";
+	}
+
+	.sub-menu-toggle:before {
+		content: "+";
+	}
+
+	.sub-menu-toggle.activated:before {
+		content: "-";
+	}
+
+	nav {
+		display: block;
+	}
+
+	nav .wrap {
+		padding: 0;
+	}
+
+	.genesis-nav-menu .menu-item {
+		
+		position: relative;
+		text-align: center;
+	}
+
+	.genesis-nav-menu .menu-item:hover {
+		position: relative;
+	}
+
+	.genesis-nav-menu .sub-menu {
+		clear: both;
+		display: none;
+		opacity: 1;
+		position: static;
+		width: 100%;
+	}
+
+	.genesis-nav-menu .sub-menu a {
+		border-left: 0;
+		position: relative;
+		width: auto;
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu {
+		margin: 0;
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu a {
+		background-color: #f5f5f5;
+		padding-left: 30px;
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu .sub-menu a {
+		background-color: #fff;
+		padding-left: 40px;
+	}
+
+	.nav-primary a:hover,
+	.nav-primary .current-menu-item > a {
+		color: #333;
+	}
+
+}
+
 
 @media only screen and (max-width: 768px) and (orientation: landscape){
-	.site-header .title-area {
-		margin-top: 25% !important;
+	.site-header {
+		margin-top: 6.25%;
 	}
 
 }
@@ -2509,9 +2425,21 @@ nav {
 
 	body {
 		background-color: #fff;
-		font-size: 16px;
+		font-size: 14px;
 	}
-
+	.genesis-nav-menu,
+	.site-header .search-form {
+		text-align: center;
+	}
+	.nav-primary .genesis-nav-menu a {
+		font-size: 1.2rem;
+	}
+	.site-description {
+		font-size: 14px;
+	}
+	.site-title{
+	font-size: 18px;
+	}
 	.site-inner,
 	.wrap {
 
@@ -2519,8 +2447,8 @@ nav {
 
 	.site-header {
 		background-size: cover;
-		min-height: 0;
-		min-height: 30rem;
+		height: 150px;
+
 	}
 		.site-header .wrap {
 			margin: 0;
@@ -2538,10 +2466,10 @@ nav {
 			.site-header .wrap .widget-area .widget:nth-child(1) {
 				display: none;
 			}
-			.site-header .title-area {
+			.site-header {
 				margin: 0;
 				margin-top: 1rem;
-				text-align: center;
+				font-size: small;
 			}
 
 	.site-inner,
