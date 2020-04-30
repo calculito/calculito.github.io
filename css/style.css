@@ -2158,6 +2158,7 @@ nav {
 }
 
 @media only screen and (min-width: 960px) {
+
 	.nav-primary .genesis-nav-menu a {
 		font-size: 1.5rem;
 	}
@@ -2418,6 +2419,21 @@ nav {
 	.site-header {
 		margin-top: 6.25%;
 	}
+	#menu-item-532,
+	#menu-item-535,
+	#menu-item-534,
+	#menu-item-531,
+	#menu-item-537,
+	#menu-item-5824,
+	#menu-item-5680 {
+		display: none;
+	}
+}
+@media only screen and (min-width: 769px) {
+#kreuz{
+	display: none;
+}
+
 
 }
 
@@ -2427,6 +2443,15 @@ nav {
 		background-color: #fff;
 		font-size: 14px;
 	}
+	#menu-item-532,
+#menu-item-535,
+#menu-item-534,
+#menu-item-531,
+#menu-item-537,
+#menu-item-5824,
+#menu-item-5680 {
+	display: none;
+}
 	.genesis-nav-menu,
 	.site-header .search-form {
 		text-align: center;
