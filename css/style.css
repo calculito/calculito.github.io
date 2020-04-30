@@ -2260,25 +2260,8 @@ nav {
 	.title-area {
 		width: 500px;
 	}
-	.sobre-eric-landing .content {
-		width: 100%
-	}
-		.sobre-eric-landing .content article {
-			margin: 6rem 3.5rem 26rem 6rem;
-		}
-		.sobre-eric-imagen-3 {
-			width: 100%
-		}
-		.sobre-eric-texto-3 {
-			margin-right: 0;
-			padding-right: 0;
-			padding-left: 5rem;
-		}
-		.sobre-eric-imagen.sobre-eric-imagen-4 {
-			margin-right: -7.4rem;
-			width: 43.5rem;
-		}
 
+}
 	
 
 
@@ -2344,9 +2327,7 @@ nav {
 	.right-sidebar-widgets > .widget:nth-child(2) > .widget-wrap > h4.widget-title, .right-sidebar-widgets > .widget:nth-child(3) > .widget-wrap > h4.widget-title {
 		font-size: 1.3rem;
 	}
-	.fb-like-box > span {
-		width: 25rem !important;
-	}
+
 	.popular-posts-io,
 	.instagram-io {
 		padding: 0;
@@ -2365,89 +2346,10 @@ nav {
 	.single-post .site-inner {
 		padding: 0;
 	}
-
-	/*		Sobre Eric		*/
-	.sobre-eric-landing .site-inner {
-		padding: 0;
-	}
-	.sobre-eric-landing .content {
-		max-width: 100%;
-	}
-	.sobre-eric-landing .content article {
-		margin: 6rem 4.5rem 26rem 6rem;
-	}
-	.sobre-eric-landing .entry-header {
-		padding: 0 2.5rem;
-	}
-		.entry-header h1 {
-			line-height: 1;
-		}
-	.sobre-eric-imagen-1 {
-		max-width: 85%;
-		margin-top: -47.5rem;
-		margin-right: 0rem;
-	}
-		.sobre-eric-imagen-1 img,
-		.sobre-eric-imagen-2 img {
-			max-width: 85%;
-		}
-	.sobre-eric-imagen-2 {
-		margin-top: -33.5rem;
-		text-align: right;
-		margin-right: 0;
-	}
-	.sobre-eric-imagen-3 {
-		background-size: 100%;
-	}
-
-	.sobre-eric-imagen.sobre-eric-imagen-4 {
-		margin-top: -19rem;
-		margin-right: -8.4rem;
-		width: 43.5rem;
-	}
-	.sobre-eric-texto p {
-		padding-right: 0rem;
-	}
-
-	.sobre-eric-texto-3 {
-		margin-right: -5rem;
-	}
-
-	.sobre-eric-imagenes-bottom img:nth-child(1) {
-		z-index: 99;
-		position: absolute;
-		left: 21rem;
-		bottom: -138rem;
-	}
-	.sobre-eric-imagenes-bottom img:nth-child(2) {
-		margin-top: -32rem;
-		z-index: 9;
-		position: absolute;
-		left: 17rem;
-		bottom: -164rem;
-	}
-
-	/*	Mis Apartamentos */
 	.site-inner {
 		padding-left: 0;
 	}
-		.mis-apartamentos-landing.full-width-content .content {
-  			padding: 0 6rem;
-  			width: 100%;
-  		}
-	  		.mis-apartamentos-landing .content article {
-	  			padding: 0;
-	  		}
-				.mis-apartamentos-landing .entry-header {
-					width: 100%;
-					padding: 0 1rem;
-					margin-top: 2rem;
-				}
-					.mis-apartamentos-landing .entry-header h1,
-					.mis-apartamentos-eric-experience h2 {
-						line-height: 2.6;
-						padding-right: 2.5rem;
-					}
+
 
 
 	/*		Footer 		*/
@@ -2588,155 +2490,11 @@ nav {
 		margin-right: 0;
 	}
 
-	/*		Sobre Eric		*/
-	.banner-lateral {
-		display: none;
-	}
-	.sobre-eric-landing .content {
-		padding: 0 7rem;
-	}
-	.sobre-eric-landing .content article {
-		box-shadow: none;
-		margin: 0;
-		padding: 0;
-	}
-	.sobre-eric-landing .entry-header {
-		width: 100%;
-		padding: 0 1rem;
-	}
-		.sobre-eric-landing .entry-header h1 {
-			line-height: 2;
-		}
-	.sobre-eric-seccion {
-		width: 100%;
-		padding: 1rem;
-		float: none;
-		clear: both;
-		display: block;
-		position: relative;
-		margin: 0;
-	}
-	.sobre-eric-imagen-1 {
-		margin-top: -3rem;
-		margin-right: 0rem;
-		max-width: 100%;
-		text-align: center;
-	}
-		.sobre-eric-imagen-1 img {
-			max-width: 100%;
-		}
-	.sobre-eric-imagen-2 {
-		display: none;
-	}
-	.sobre-eric-imagen-3 {
-		background: url('images/io-gafas-logo.png') no-repeat left;
-		background-size: 100%;
-		margin-left: -7rem;
-  		height: 42rem;
-	}
-	.sobre-eric-imagen.sobre-eric-imagen-4 {
-		width: 100%;
-		margin-top: -3rem;
-		margin-left: 7rem;
-		padding-right: 0;
-		text-align: right;
-	}
-	.sobre-eric-imagenes-bottom {
-		margin-top: 0;
-		display: block;
-		position: relative;
-		clear: both;
-		float: left;
-		padding-bottom: 2rem;
-	}
-		.sobre-eric-imagenes-bottom img:nth-child(1),
-		.sobre-eric-imagenes-bottom img:nth-child(2) {
-			margin: 0;
-			position: relative;
-			bottom: 0;
-			margin-top: 0;
-			left: 0;
-		}
-		.sobre-eric-imagenes-bottom img:nth-child(1) {
-			margin-top: -7rem;
-  			width: 50%;
-  			margin-right: 9rem;
-		}
-		.sobre-eric-imagenes-bottom img:nth-child(2) {
-			margin-top: -32rem;
-  			max-width: 100%;
-		}
 
-	/*	Mis Apartamentos */
 	.site-inner {
 		padding-left: 0;
 	}
-		.mis-apartamentos-landing.full-width-content .content {
-  			padding: 0 2rem;
-  		}
-	  		.mis-apartamentos-landing .content article {
-	  			padding: 0;
-	  		}
-				.mis-apartamentos-landing .entry-header {
-					width: 100%;
-					padding: 0 1rem;
-				}
-					.mis-apartamentos-landing .entry-header h1,
-					.mis-apartamentos-eric-experience h2 {
-						line-height: 2;
-						padding-right: 2.5rem;
-					}
 
-
-					.mis-apartamentos-edificio .soliloquy-container {
-						margin-top: 3rem !important;
-					}
-						.mis-apartamentos-edificio .soliloquy-container .soliloquy-prev {
-							height: 2.5rem !important;
-							width: 7.5rem !important;
-							left: -10rem !important;
-							background-size: 50% !important;
-						}
-						.mis-apartamentos-edificio .soliloquy-container .soliloquy-next {
-							height: 2.5rem !important;
-							width: 7.5rem !important;
-							right: -10rem !important;
-							background-size: 50% !important;
-						}
-					.mis-apartamentos-edificio h4 {
-						font-size: 2rem;
-					}
-
-						.mis-apartamentos-edificio-ventajas li {
-							background-size: 10%;
-						}
-
-					.mis-apartamentos-eric-experience h2 {
-						line-height: 1.2;
-						padding-right: 2rem;
-					}
-					.mis-apartamentos-eric-experience p {
-						width: 100%;
-					}
-						.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item:nth-child(even) {
-							margin-right: 0;
-						}
-						.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item:nth-child(odd) {
-							margin-right: 0;
-						}
-					.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item {
-						width: 31%;
-						min-height: 29rem;
-						margin-right: 2% !important;
-					}
-						.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item:nth-child(3n) {
-							margin-right: 0;
-						}
-						.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item h3 {
-							font-size: 2rem;
-							padding-left: 3rem;
-							background-size: 15%;
-						}
 
 }
 
@@ -2745,32 +2503,6 @@ nav {
 		margin-top: 25% !important;
 	}
 
-
-	.mis-apartamentos-landing .entry-header h1 {
-		line-height: 2.5 !important;
-	}
-
-
-		.mis-apartamentos-ciudad > .mis-apartamentos-edificio > .soliloquy-container {
-  			margin-top: 0 !important;
-  			margin-left: 4rem !important;
-  		}
-  			.mis-apartamentos-edificio .soliloquy-container .soliloquy-controls-direction > .soliloquy-prev {
-  				left: -8rem !important;
-  			}
-  			.mis-apartamentos-edificio .soliloquy-container .soliloquy-controls-direction > .soliloquy-next {
-  				right: -8rem !important;
-  			}
-
-
-				.mis-apartamentos-edificio > .mis-apartamentos-edificio-ventajas > li {
-					background-size: 10%;
-				}
-
-			.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item h3 {
-				font-size: 2rem !important;
-				background-size: 12% !important;
-			}
 }
 
 @media only screen and (max-width: 767px) {
@@ -2871,9 +2603,7 @@ nav {
 		padding: 0;
 	}
 
-	.archive-pagination li a {
-		margin-bottom: 4px;
-	}
+
 
 	.five-sixths,
 	.four-sixths,
@@ -2914,167 +2644,10 @@ nav {
 		display: block;
 	}
 
-	/*		Sobre Eric		*/
 	.banner-lateral {
 		display: none;
 	}
-	.sobre-eric-landing .content article {
-		box-shadow: none;
-		margin: 0;
-		padding: 0;
-	}
-	.sobre-eric-landing .entry-header {
-		width: 100%;
-		padding: 0 1rem;
-	}
-	.sobre-eric-seccion {
-		width: 100%;
-		padding: 1rem;
-		float: none;
-		clear: both;
-		display: block;
-		position: relative;
-		margin: 0;
-	}
-	.sobre-eric-imagen-1 {
-		margin-top: -3rem;
-		margin-right: 0rem;
-		max-width: 100%;
-	}
-		.sobre-eric-imagen-1 img {
-			max-width: 100%;
-		}
-	.sobre-eric-imagen-2 {
-		display: none;
-	}
-	.sobre-eric-imagen-3 {
-		background: url('images/io-gafas-logo.png') no-repeat left;
-		background-size: 100%;
-		margin-left: -3rem;
-		height: 18rem;
-	}
-	.sobre-eric-imagen.sobre-eric-imagen-4 {
-		width: 100%;
-		margin-top: -3rem;
-		margin-left: 3rem;
-		padding-right: 0;
-	}
-	.sobre-eric-imagenes-bottom {
-		margin-top: 0;
-		display: block;
-		position: relative;
-		clear: both;
-		float: left;
-		padding-bottom: 2rem;
-	}
-		.sobre-eric-imagenes-bottom img:nth-child(1),
-		.sobre-eric-imagenes-bottom img:nth-child(2) {
-			margin: 0;
-			position: relative;
-			bottom: 0;
-			margin-top: 0;
-			left: 0;
-		}
-		.sobre-eric-imagenes-bottom img:nth-child(1) {
-			margin-top: -7rem;
-  			width: 50%;
-  			margin-right: 9rem;
-		}
-		.sobre-eric-imagenes-bottom img:nth-child(2) {
-			margin-top: -12rem;
-  			max-width: 100%;
-		}
-
-
-	/*	Mis Apartamentos */
-	.mis-apartamentos-landing .site-inner {
-		padding-left: 0;
-	}
-		.mis-apartamentos-landing.full-width-content .content {
-  			padding: 0 2rem;
-  		}
-	  		.mis-apartamentos-landing .content article {
-	  			padding: 0;
-	  		}
-				.mis-apartamentos-landing .entry-header {
-					width: 100%;
-					padding: 0 1rem;
-				}
-					.mis-apartamentos-landing .entry-header h1 {
-						line-height: 2;
-						padding-right: 2rem;
-					}
-				.mis-apartamentos-seccion {
-					width: 100%;
-					padding: 1rem;
-					float: none;
-					clear: both;
-					display: block;
-					position: relative;
-					margin: 0;
-				}
-				.mis-apartamentos-ciudad p {
-					padding: 0 3rem;
-				}
-				.mis-apartamentos-edificio {
-					width: 100%;
-					margin-left: 0;
-					background-size: 100%;
-					/*height: auto !important;*/
-					padding: 0;
-					min-height: 24rem;
-				}
-					.mis-apartamentos-edificio .soliloquy-container {
-						width: 80% !important;
-						margin-left: 2.5rem !important;
-						margin-top: 2rem !important;
-						padding-top: 1rem !important;
-					}
-						.mis-apartamentos-edificio .soliloquy-container .soliloquy-prev {
-							height: 2.5rem !important;
-							width: 7.5rem !important;
-							left: -7rem !important;
-							background-size: 50% !important;
-						}
-						.mis-apartamentos-edificio .soliloquy-container .soliloquy-next {
-							height: 2.5rem !important;
-							width: 7.5rem !important;
-							right: -7rem !important;
-							background-size: 50% !important;
-						}
-					.mis-apartamentos-edificio h4 {
-						font-size: 1.3rem;
-					}
-					.mis-apartamentos-edificio-ventajas {
-						margin-left: 5rem !important;
-						font-size: 1.2rem;
-					}
-						.mis-apartamentos-edificio-ventajas li {
-							background-size: 13%;
-						}
-
-				.mis-apartamentos-eric-experience h2 {
-					line-height: 1.2;
-					padding-right: 2rem;
-				}
-				.mis-apartamentos-eric-experience p {
-					width: 100%;
-				}
-				.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item {
-					width: 49% !important;
-					min-height: 17rem;
-				}
-					.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item:nth-child(even) {
-						margin-right: 0  !important;
-					}
-					.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item:nth-child(odd) {
-						margin-right: 2%  !important;
-					}
-					.mis-apartamentos-eric-experience-pq .mis-apartamentos-eric-experience-item h3 {
-						font-size: 1.2rem;
-						padding-left: 3rem;
-						background-size: 20%;
-					}
+	
 
 }
 .heart {
