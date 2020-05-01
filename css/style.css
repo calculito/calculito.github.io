@@ -794,9 +794,6 @@ img.alignright,
 	margin-bottom: 0;
 }
 
-.sticky {
-}
-
 
 /* # Widgets
 ---------------------------------------------------------------------------------------------------- */
@@ -825,72 +822,6 @@ img.alignright,
 .widget_calendar td,
 .widget_calendar th {
 	text-align: center;
-}
-
-/* ## Featured Content
---------------------------------------------- */
-
-.featured-content .entry {
-	border-bottom: 2px solid #f5f5f5;
-	margin-bottom: 20px;
-	padding: 0 0 24px;
-}
-
-.footer-widgets .entry {
-	border-bottom: 1px dotted #666;
-}
-
-.featured-content .entry-title {
-	font-size: 20px;
-}
-
-
-/* # Plugins
----------------------------------------------------------------------------------------------------- */
-
-/* ## Genesis eNews Extended
---------------------------------------------- */
-
-.enews-widget,
-.enews-widget .widget-title {
-	color: #fff;
-}
-
-.sidebar .widget.enews-widget {
-	background-color: #333;
-}
-
-.enews-widget input,
-.enews-widget input:focus {
-	border: 1px solid #333;
-}
-
-.enews-widget input {
-	font-size: 16px;
-	margin-bottom: 16px;
-}
-
-.enews-widget input[type="submit"] {
-	background-color: #e5554e;
-	color: #fff;
-	margin: 0;
-	width: 100%;
-}
-
-.enews-widget input:hover[type="submit"] {
-	background-color: #fff;
-	color: #333;
-}
-
-.enews form + p {
-	margin-top: 24px;
-}
-
-/* ## Jetpack
---------------------------------------------- */
-
-#wpstats {
-	display: none;
 }
 
 
@@ -999,9 +930,7 @@ img.alignright,
 	width: 44rem;
 	display: inline-block;
 }
-	.sumome-icon {
-		display: none;
-	}
+
 	.site-header .widget-area .widget_search {
 		/*display: none;*/
 		float: right;
@@ -1179,16 +1108,13 @@ img.alignright,
 	color: #333;
 }
 
-/*.nav-primary .genesis-nav-menu a:hover,
-.nav-primary .genesis-nav-menu .current-menu-item > a,
-.nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #e5554e;
-}*/
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu .current-menu-item > a,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
 	color: #FFF;
-	background-color: #343433;
+	background-color: #a0b1bb;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 /* ## Secondary Navigation
@@ -2055,7 +1981,6 @@ nav {
 
 	.site-header {
 		background-size: cover;
-		height: 200px;
 		
 	}
 	.nav-primary .genesis-nav-menu a {
@@ -2610,11 +2535,13 @@ nav {
 	
 
 }
+/*ab hier herzen*/
 .heart {
 	font-size: 25px;
 	  color:red;
   }
-  /* Style the navigation menu */
+  /*###################  herzen ##################*/
+  /* Style the mobile navigation menu */
 .topnav {
 	overflow: hidden;
 	display: flex;
@@ -2654,3 +2581,31 @@ nav {
   .active {
 	color: white;
   }
+  /*#################### mobile menu ####################*/
+  /*ab hier fixed menu*/
+  .top-container {
+	
+	padding: 30px;
+	
+  }
+  
+  .header {
+	padding: 10px 16px;
+	background: #555;
+	color: #f1f1f1;
+  }
+  
+  .content {
+	padding: 16px;
+  }
+  
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .sticky + .content {
+	padding-top: 102px;
+  }
+  /*################## fixed menu ##################*/

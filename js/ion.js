@@ -7,7 +7,7 @@ function hidecookies() {
     x.style.display = "none";
   }
 }
-
+//mobile menu
 function mymenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
