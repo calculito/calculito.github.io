@@ -12,7 +12,9 @@ function mymenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
+    document.head.focus();
   } else {
     x.style.display = "block";
+    document.head.focus();
   }
 }
