@@ -1218,7 +1218,7 @@ background-color: rgb(38, 48, 51);
 	}
 	.widget-wrap {
 border-right: black 1px solid;
-border-left: gray 1px solid;
+border-left: black 1px solid;
 	}
 
 	.right-sidebar-widgets > .widget:first-of-type > .widget-wrap > h4.widget-title {
@@ -1949,6 +1949,7 @@ nav {
 #menu-item-5680 {
 	display: none;
 }
+
 	.genesis-nav-menu,
 	.site-header .search-form {
 		text-align: center;
@@ -2124,7 +2125,7 @@ nav {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	display: block;
+
   }
   
   /* Style the hamburger menu */
