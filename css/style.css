@@ -300,60 +300,7 @@ img {
 	width: auto;
 }
 
-/* ## Gallery
---------------------------------------------- */
 
-.gallery {
-	overflow: hidden;
-}
-
-.gallery-item {
-	float: left;
-	margin: 0 0 28px;
-	text-align: center;
-}
-
-.gallery-columns-2 .gallery-item {
-	width: 50%;
-}
-
-.gallery-columns-3 .gallery-item {
-	width: 33%;
-}
-
-.gallery-columns-4 .gallery-item {
-	width: 25%;
-}
-
-.gallery-columns-5 .gallery-item {
-	width: 20%;
-}
-
-.gallery-columns-6 .gallery-item {
-	width: 16.6666%;
-}
-
-.gallery-columns-7 .gallery-item {
-	width: 14.2857%;
-}
-
-.gallery-columns-8 .gallery-item {
-	width: 12.5%;
-}
-
-.gallery-columns-9 .gallery-item {
-	width: 11.1111%;
-}
-
-.gallery img {
-	border: 1px solid #ddd;
-	height: auto;
-	padding: 4px;
-}
-
-.gallery img:hover {
-	border: 1px solid #999;
-}
 
 /* ## Forms
 --------------------------------------------- */
@@ -1112,9 +1059,9 @@ img.alignright,
 .nav-primary .genesis-nav-menu .current-menu-item > a,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
 	color: #FFF;
-	background-color: #a0b1bb;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+	background-color: rgb(38, 48, 51);
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 /* ## Secondary Navigation
@@ -1341,77 +1288,7 @@ li.comment {
 }
 
 
-/* # Footer Widgets
----------------------------------------------------------------------------------------------------- */
 
-.footer-widgets {
-	background-color: #333;
-	clear: both;
-	padding-top: 40px;
-}
-
-.footer-widgets,
-.footer-widgets a {
-	color: #999;
-}
-
-.footer-widgets input {
-	border: 1px solid #333;
-}
-
-.footer-widgets a.button,
-.footer-widgets a:hover {
-	color: #fff;
-}
-
-.footer-widgets li {
-	border-bottom: 1px dotted #666;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-}
-
-.footer-widgets .widget {
-	margin-bottom: 40px;
-}
-
-.footer-widgets p:last-child {
-	margin-bottom: 0;
-}
-
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
-	width: 340px;
-}
-
-.footer-widgets-1 {
-	margin-right: 60px;
-}
-
-.footer-widgets-1,
-.footer-widgets-2 {
-	float: left;
-}
-
-.footer-widgets-3 {
-	float: right;
-}
-
-
-/* # Site Footer
----------------------------------------------------------------------------------------------------- */
-
-.site-footer {
-	background-color: #fff;
-	font-size: 16px;
-	line-height: 1;
-	padding: 40px 0;
-	text-align: center;
-}
-
-.site-footer p {
-	margin-bottom: 0;
-}
 
 /* # Posts : Home + Archive
 ---------------------------------------------------------------------------------------------------- */
