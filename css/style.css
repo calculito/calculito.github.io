@@ -899,7 +899,7 @@ img.alignright,
 
 .site-header {
 	background-color: #fff;
-	min-height: 300px;
+	min-height: 150px;
 	background: url('../images/bg_header.jpg') no-repeat center center;
 }
 
@@ -968,6 +968,7 @@ img.alignright,
 	line-height: 1.1;
 	font-family: 'georgiaitalic';
 	margin-top: 2rem;
+	word-wrap: break-word;
 }
 
 .site-description,
@@ -2479,8 +2480,7 @@ nav {
 
 	.site-header {
 		background-size: cover;
-		height: 150px;
-
+		height: 100px;
 	}
 		.site-header .wrap {
 			margin: 0;
@@ -2648,11 +2648,9 @@ nav {
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
 	background-color: #ddd;
-	color: black;
   }
   
   /* Style the active link (or home/logo) */
   .active {
-	
 	color: white;
   }
