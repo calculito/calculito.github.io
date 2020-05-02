@@ -54,13 +54,16 @@ body.custom-background { background-color: #ffffff; }
 <body style="zoom: 1;">		
     <div class="site-container">
 		<!--  ab hier HEADER -->
-		<header style="background: url('./things/bg.jpg') no-repeat center center;" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"><section id="polylang-2" class="widget widget_polylang"><div class="widget-wrap"><ul>
+		<header style="background: url('./things/bg.jpg') no-repeat center center;" class="site-header" class="topcon" role="banner"><section id="polylang-2" class="widget widget_polylang"><!-- <div class="widget-wrap"> --><ul>
       <li class="lang-item lang-item-49 lang-item-de"><a hreflang="de" href="things.html">English</a></li>
     </ul>
-	</div>
+	<!-- </div> end wrap -->
 </section>
 <div class="wrap">
 	<div class="title-area"><h1 class="site-title" itemprop="headline">SACHEN ;) | dies & das</h1><p class="site-description" itemprop="description">informationen, ideen, inspiration</p></div></div></header>
+	<!--  ende header  -->
+<!-- ab hier nav -->
+<div class="navigaion" id="navigaid" >
 	<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-menu-superior-en" class="menu genesis-nav-menu menu-primary"><li id="menu-item-532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-532"><a href="index_de.html">KÜNSTLER/INNEN</a></li>
 <!--<li id="menu-item-535" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-535"><a href="no url/en/getaways/">VERANSTALTUNGEN</a></li>-->
 <li id="menu-item-534" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-534"><a href="art_de.html">KUNST</a></li>
@@ -81,7 +84,13 @@ body.custom-background { background-color: #ffffff; }
 	</a>
   </div>
   </li>
-</ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><div class="top-posts-io">
+</ul></div></nav>
+</div>
+<!-- ende nav -->
+<!-- ab hier hauptbereich -->
+<div class="main">
+	<!-- ab hier hauptbereich ohne map und cookie  -->
+<div class="site-inner"><div class="content-sidebar-wrap"><div class="top-posts-io">
 				<div class="post-item">
 					<div class="post-item-background" style="background: url(./things/streetsale.jpg) center no-repeat black; background-size: cover;"></div>
 					<div class="post-item-content">
@@ -179,4 +188,22 @@ body.custom-background { background-color: #ffffff; }
   <div style="width: 25%;"><h4 class="widget-title widgettitle" style="text-align: center;">Finden Sie uns in<br>ZÜRICH: </h4><a href="https://goo.gl/maps/PszHtJZ6fXSkfD5b7"><img src="./images/mapzur.jpg" alt="map zuerich"></a><!--<iframe style="height: 200px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10800.108312070755!2d8.553361!3d47.411413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5da554673a6eaaa6!2sZurich%20Exhibition%20Hall!5e0!3m2!1sen!2ses!4v1588022572277!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>--></div>
   <div style="width: 25%;"><h4 class="widget-title widgettitle" style="text-align: center;">Finden Sie uns in<br>BERLIN: </h4><a href="https://goo.gl/maps/JAnsSASGviZhLF366"><img src="./images/mapber.jpg" alt="map berlin"></a><!--<iframe style="height: 200px;" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4857.36437320631!2d13.46756262760045!3d52.50299231924382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sberlin%20ostkreuz!5e0!3m2!1sen!2ses!4v1588022686517!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>--></div>
   </div>
+  <!-- cookie ende  -->
+</div><!-- ende hauptbereich  -->
+<!--</div>--> <!-- ende body  -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navigaid");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</div>
 </body></html>

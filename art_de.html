@@ -54,14 +54,18 @@ body.custom-background { background-color: #ffffff; }
 <body style="zoom: 1;">		
     <div class="site-container">
 		<!--  ab hier HEADER -->
-		<header style="background: url('./art/bg.jpg') no-repeat center center;"class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"><section id="polylang-2" class="widget widget_polylang"><div class="widget-wrap"><ul>
+		<header style="background: url('./art/bg.jpg') no-repeat center center;" class="site-header" class="topcon" role="banner"><section id="polylang-2" class="widget widget_polylang">
+			<!-- <div class="widget-wrap"> --><ul>
       <li class="lang-item lang-item-49 lang-item-de"><a hreflang="de" href="art.html">English</a></li>
     </ul>
-	</div>
+	<!-- </div> end wrap -->
 </section>
 <div class="wrap">
 	<div class="title-area"><h1 class="site-title" itemprop="headline">nicht nur für Kunst&nbsp;| liebhaber</h1><p class="site-description" itemprop="description">kunst, design, keramik, 3d, urbane kunst</p></div></div></header>
-	<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-menu-superior-en" class="menu genesis-nav-menu menu-primary"><li id="menu-item-532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-532"><a href="index_de.html">Künstler/innen</a></li>
+	<!--  ende header  -->
+<!-- ab hier nav -->
+<div class="navigaion" id="navigaid" >
+	<nav class="nav-primary" role="navigation" ><div class="wrap"><ul id="menu-menu-superior-en" class="menu genesis-nav-menu menu-primary"><li id="menu-item-532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-532"><a href="index_de.html">Künstler/innen</a></li>
 <!--<li id="menu-item-535" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-535"><a href="no url/en/getaways/">events</a></li>-->
 <!--<li id="menu-item-534" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-534"><a href="no url/en/gastronomy/">art</a></li>-->
 <!--<li id="menu-item-531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-531"><a href="no url/en/art/">friends</a></li>-->
@@ -81,7 +85,13 @@ body.custom-background { background-color: #ffffff; }
 	</a>
   </div>
   </li>
-</ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><div class="top-posts-io">
+</ul></div></nav>
+</div>
+<!-- ende nav -->
+<!-- ab hier hauptbereich -->
+<div class="main">
+	<!-- ab hier hauptbereich ohne map und cookie  -->
+<div class="site-inner"><div class="content-sidebar-wrap"><div class="top-posts-io">
 				<div class="post-item">
 					<div class="post-item-background" style="background: url(./smara/kranz.jpg) center no-repeat black; background-size: cover;"></div>
 					<div class="post-item-content">
@@ -179,5 +189,22 @@ body.custom-background { background-color: #ffffff; }
   </div>
 
 
+<!-- cookie ende  -->
+</div><!-- ende hauptbereich  -->
+<!--</div>--> <!-- ende body  -->
+<script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("navigaid");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</div>
 </body></html>
