@@ -6,7 +6,7 @@ Author: Optimando
 Author URI: http://www.optimando.com/
 Template: genesis
 Template Version: 2.1.2
-Tags: black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+Tags: white, orange, black, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -81,13 +81,6 @@ html {
 body {
   margin: 0;
 }
-*,
-input[type="search"] {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	box-sizing:         border-box;
-}
-
 article,
 aside,
 details,
@@ -331,7 +324,7 @@ html {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: black;
   color: #333;
   /*font-family: Lato, sans-serif;*/
   font-family: "georgiaitalic";
@@ -1366,8 +1359,8 @@ img.alignright,
   margin-bottom: 4rem;
 }
 .widget-wrap {
-  border-right: black 1px solid;
-  border-left: black 1px solid;
+  border-right: white 1px solid;
+  border-left: white 1px solid;
 }
 
 .right-sidebar-widgets
@@ -2035,12 +2028,12 @@ nav {
   }
 
   .genesis-nav-menu .sub-menu .sub-menu a {
-    background-color: #f5f5f5;
+    background-color: black;
     padding-left: 30px;
   }
 
   .genesis-nav-menu .sub-menu .sub-menu .sub-menu a {
-    background-color: #fff;
+    background-color: black;
     padding-left: 40px;
   }
 
@@ -2072,7 +2065,7 @@ nav {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-color: #fff;
+    background-color: black;
     font-size: 14px;
   }
   #menu-item-532,
@@ -2087,8 +2080,8 @@ nav {
   .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu .current-menu-item > a,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   border-top-right-radius: 1px;
   border-top-left-radius: 1px;
 }
@@ -2243,7 +2236,6 @@ nav {
   font-size: 25px;
   color: red;
 }
-
 /* ende  herzen */
 /* ab hier mobile navigation menu */
 .topnav {
@@ -2260,7 +2252,7 @@ nav {
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -2282,7 +2274,7 @@ nav {
 
 /* Style the active link (or home/logo) */
 .active {
-  color: white;
+  color: black;
 }
 /* ende mobile menu */
 /* ab hier scroll to top */
@@ -2295,21 +2287,21 @@ nav {
   /*border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: orangered; /* Set a background color */
-  color: white; /* Text color */
+  color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 12px; /* Some padding */
   border-radius: 15px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 #myBtn:hover {
   background-color: rgb(255, 1, 1); /* Add a dark-grey background on hover */
-    border-right: 0px solid white;
-  border-bottom: 0px solid white;
-    border-left: 2px solid white;
-  border-top: 2px solid white;
+    border-right: 0px solid black;
+  border-bottom: 0px solid black;
+    border-left: 2px solid black;
+  border-top: 2px solid black;
 }
 /* ende scroll to top */
 /* ab hier sticky menu */
@@ -2319,7 +2311,7 @@ nav {
 }
 
 .navigaion {
-  background: white;
+  background: black;
 }
 
 .main {
