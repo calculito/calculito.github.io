@@ -189,37 +189,24 @@ $(".heart.fa").click(function() {
 <!-- cookie ende  -->
 </div><!-- ende hauptbereich  -->
 <!--</div>--> <!-- ende body  -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
 window.onscroll = function() {myFunction()};
+window.onscroll = function() {scrollFunction()};
 
 var header = document.getElementById("navigaid");
 var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<script>
-//Get the button
 var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+	mybutton.style.display = "block";
+	header.classList.add("sticky");
   } else {
+	header.classList.remove("sticky");
     mybutton.style.display = "none";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
