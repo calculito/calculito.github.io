@@ -11,10 +11,10 @@ function mymenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
-    document.getElementById("navigaid").focus();
+    document.getElementById("unten").focus();
   } else {
     x.style.display = "block";
-    document.getElementById("navigaid").focus();
+    document.getElementById("unten").focus();
   }
 }
 /*
