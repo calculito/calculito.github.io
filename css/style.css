@@ -1162,6 +1162,9 @@ img.alignright,
   -ms-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+-webkit-box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
+-moz-box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
+box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
 .post-item .post-item-background {
   -webkit-backface-visibility: hidden;
@@ -1178,13 +1181,14 @@ img.alignright,
   -ms-filter: ”alpha(opacity=95) ”;
   filter: alpha(opacity=95);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.95);
-  opacity: 0.9;
+  opacity: 0.95;
   background-size: 100%;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   -ms-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
+
 }
 .post-item:hover .post-item-background {
   -webkit-transform: scale(1.3);
@@ -1192,6 +1196,7 @@ img.alignright,
   -ms-transform: scale(1.3);
   -o-transform: scale(1.3);
   transform: scale(1.3);
+
 }
 
 .post-item .post-item-content {
@@ -1204,6 +1209,7 @@ img.alignright,
   width: 100%;
   /*background-color: rgba(0, 0, 0, 0.1);*/
   display: block;
+
 }
 .post-item:hover .post-item-content {
   background-color: rgba(0, 0, 0, 0.6);
@@ -1286,7 +1292,10 @@ img.alignright,
   height: 53rem;
   /*padding-top: 36.5rem;*/
   padding-top: 25rem;
-  border-bottom-left-radius: 65px;
+  border-radius: 0px 20px 42px 70px;
+-moz-border-radius: 0px 0px 42px 70px;
+-webkit-border-radius: 0px 0px 42px 70px;
+border: 0px solid #000000;
 }
 .top-posts-io .post-item:nth-child(3) {
   margin-top: -15rem;
