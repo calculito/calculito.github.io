@@ -2236,8 +2236,8 @@ nav {
   font-size: 25px;
   color: red;
 }
-/*###################  herzen ##################*/
-/* Style the mobile navigation menu */
+/* ende  herzen */
+/* ab hier mobile navigation menu */
 .topnav {
   overflow: hidden;
   display: flex;
@@ -2276,7 +2276,8 @@ nav {
 .active {
   color: white;
 }
-/*#################### mobile menu ####################*/
+/* ende mobile menu */
+/* ab hier scroll to top */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -2285,7 +2286,7 @@ nav {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: orangered; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -2296,8 +2297,8 @@ nav {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
-/* ############## sticky menu ###############*/
+/* ende scroll to top */
+/* ab hier sticky menu */
 
 .topcon {
   padding: 30px;
@@ -2321,3 +2322,4 @@ nav {
 .sticky + .main {
   padding-top: 102px;
 }
+/* ende sticky menu */
