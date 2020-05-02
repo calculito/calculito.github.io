@@ -2077,6 +2077,14 @@ nav {
   #menu-item-5680 {
     display: none;
   }
+  .nav-primary .genesis-nav-menu a:hover,
+.nav-primary .genesis-nav-menu .current-menu-item > a,
+.nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+  color: black;
+  background-color: white;
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+}
 
   .genesis-nav-menu,
   .site-header .search-form {
