@@ -1,4 +1,3 @@
-
 function hidecookies() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
@@ -12,10 +11,10 @@ function mymenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
-    document.body.focus();
+    document.getElementById("navigaid").focus();
   } else {
     x.style.display = "block";
-    document.body.focus();
+    document.getElementById("navigaid").focus();
   }
 }
 /*

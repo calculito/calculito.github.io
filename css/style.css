@@ -832,9 +832,7 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-  background-color: #fff;
   min-height: 150px;
-  background: url("../images/bg_header.jpg") no-repeat center center;
 }
 
 .site-header .wrap {
@@ -869,7 +867,7 @@ img.alignright,
 
 .title-area {
   float: left;
-  width: 100%;
+  /*width: 100%;*/
   margin-left: 10.7%;
   margin-top: 6.25%;
 }
@@ -1147,9 +1145,6 @@ img.alignright,
   padding: 40px;
 }
 
-/* # Posts : Home + Archive
----------------------------------------------------------------------------------------------------- */
-
 /*		General			*/
 .post-item {
   position: relative;
@@ -1200,7 +1195,7 @@ img.alignright,
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  /*background-color: rgba(0, 0, 0, 0.1);*/
   display: block;
 }
 .post-item:hover .post-item-content {
@@ -1942,10 +1937,11 @@ nav {
   .footer-widgets-1 {
     margin-right: 0;
   }
-
+  /*
   .site-inner {
     padding-left: 0;
   }
+  */
   .genesis-nav-menu,
   .site-header .search-form {
     text-align: center;
