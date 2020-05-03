@@ -1910,7 +1910,7 @@ nav {
   .right-sidebar-widgets .widget {
     display: block;
     float: left;
-    /*width: 47%;*/
+    width: 47%;
   }
   .right-sidebar-widgets .widget:nth-child(1) {
     margin-right: 2rem;
