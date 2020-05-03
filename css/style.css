@@ -1088,6 +1088,9 @@ img.alignright,
   /*background-color: #333;*/
   border-bottom: rgb(38, 48, 51) 1px solid;
   background-color: transparent;
+ /* background-image: url(../images/bgmenu.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;*/
 }
 
 .nav-primary .wrap {
@@ -2102,6 +2105,15 @@ nav {
   border-top-left-radius: 1px;
 }
 
+#menumob1 {
+  padding: 10px;
+  margin: 5px;
+}
+#menumob2 {
+  padding: 10px;
+  margin: 5px;
+}
+
   .genesis-nav-menu,
   .site-header .search-form {
     text-align: center;
@@ -2258,7 +2270,7 @@ nav {
 .topnav {
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 

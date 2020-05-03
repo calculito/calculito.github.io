@@ -9,13 +9,17 @@ function hidecookies() {
 //mobile menu
 function mymenu() {
   var x = document.getElementById("myLinks");
+  var y = document.getElementById("menumob2");
   if (x.style.display === "block") {
     x.style.display = "none";
+    y.style.display = "block";
     document.getElementById("unten").focus();
   } else {
     x.style.display = "block";
+    y.style.display = "none";
     document.getElementById("unten").focus();
   }
+  
 }
 //Get the button:
 mybutton = document.getElementById("myBtn");

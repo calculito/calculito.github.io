@@ -31,6 +31,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!--<script type="application/ld+json">{ "@context": "http://schema.org","@type": "WebSite","url": "no url","potentialAction": {"@type": "SearchAction","target": "no url?s={search_term}","query-input": "required name=search_term"}}</script>-->
 <script type="text/javascript" src="./js/ion.js"></script>
+<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
 <!--<script type="text/javascript" src="./js/jquery.js"></script>
 <script type="text/javascript" src="./js/jquery-migrate.min.js"></script>
 <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>-->
@@ -69,18 +70,19 @@ body.custom-background { background-color: #ffffff; }
 <li id="menu-item-5680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680"><a href="contact.html">contact</a></li>
 <li id="menu-item-5824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5824"><a href="juan.html" title="next artist"><span>>></span></a></li>
 <li id="kreuz" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680"><div class="topnav">
-	<a href="juan.html" titel="next" class="active">&nbsp;</a>
+	<a href="javascript:void(0);" onclick="mymenu()" id="menumob1" class="active">&nbsp;</a>
 	<!-- Navigation links (hidden by default) -->
 	<div id="myLinks">
 	  <a href="index.html">home</a>
 	  <a href="#contact">events</a>
 	  <a href="contact.html">contact</a>
 	  <a href="juan.html" title="next artist">>></a>
+		<a onclick="mymenu()" style="cursor: pointer; border: 1px solid padding: 1px">X</a>
 	</div>
 	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-	<a href="javascript:void(0);" class="icon" onclick="mymenu()">
-	  <i class="fa fa-bars fa-2x"></i></a>
-	
+	<a href="javascript:void(0);" class="icon" id="menumob2" onclick="mymenu()">
+	  <i class="fa fa-bars fa-2x"></i>
+	</a>
   </div>
   </li>
 </ul></div></nav>
