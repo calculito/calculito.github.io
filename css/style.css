@@ -1342,7 +1342,7 @@ border: 0px solid #000000;
   /*width: 30%;
   	margin: 0 2rem 0 0;*/
   width: 31%;
-  margin: 1rem 1rem 0 0;
+ /* margin: 1rem 1rem 0 0;*/
   padding: 1rem 1rem 0 0;
   display: block;
   position: relative;
@@ -1910,7 +1910,7 @@ nav {
   .right-sidebar-widgets .widget {
     display: block;
     float: left;
-    width: 47%;
+    /*width: 47%;*/
   }
   .right-sidebar-widgets .widget:nth-child(1) {
     margin-right: 2rem;
