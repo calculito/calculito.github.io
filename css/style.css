@@ -317,7 +317,7 @@ input[type="search"] {
 }
 
 #unten {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
 }
 /* # Defaults
@@ -1126,6 +1126,14 @@ img.alignright,
 
 .nav-secondary {
   background-color: #fff;
+}
+
+/* ## mobile navigation
+----------------------------------------------*/
+#xmenumob {
+cursor: pointer; 
+border: 1px solid;
+padding: 1px;
 }
 
 /* # Content Area
@@ -2132,8 +2140,12 @@ nav {
   }
 
   .site-header {
-    background-size: cover;
+    /*background-size: cover;*/
     height: 100px;
+        margin: 0;
+    /*margin-top: 1rem;*/
+    font-size: small;
+    background-size: 780px;
   }
   .site-header .wrap {
     margin: 0;
@@ -2150,11 +2162,6 @@ nav {
   }
   .site-header .wrap .widget-area .widget:nth-child(1) {
     display: none;
-  }
-  .site-header {
-    margin: 0;
-    margin-top: 1rem;
-    font-size: small;
   }
 
   .site-inner,
