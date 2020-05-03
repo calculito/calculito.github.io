@@ -593,7 +593,9 @@ th {
 
 /* ## Site Containers
 --------------------------------------------- */
-
+.site-header{
+  min-height: 200px;
+}
 .site-inner,
 .wrap {
   margin: 0 auto;
@@ -837,7 +839,6 @@ img.alignright,
 
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
-
 .site-header {
   min-height: 150px;
 }
@@ -922,10 +923,6 @@ img.alignright,
 
 /* ## Widget Area
 --------------------------------------------- */
-
-.header-widget-area section:first-of-type {
-  float: left;
-}
 
 .site-header .widget-area {
   float: right;
@@ -1132,7 +1129,6 @@ img.alignright,
 ----------------------------------------------*/
 #xmenumob {
 cursor: pointer; 
-border: 1px solid;
 padding: 1px;
 }
 
@@ -1179,7 +1175,9 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
 .post-item .post-item-background {
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   display: block;
   position: absolute;
   top: 0;
@@ -1212,7 +1210,9 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 
 .post-item .post-item-content {
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   position: absolute;
   top: 0;
   left: 0;
@@ -1248,7 +1248,9 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
 .post-item .categorias {
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   font-family: "helveticaneuelt_std_ltregular";
   font-size: 1.8rem;
   padding-left: 2.5rem;
@@ -1353,9 +1355,7 @@ border: 0px solid #000000;
   border-bottom-left-radius: 65px;
 }
 
-.left-posts-io .post-item h2 {
-  /*margin-top: 33rem;*/
-}
+
 .left-posts-io .post-item h2 a {
   height: 43rem;
   /*padding-top: 33rem;*/
@@ -1897,7 +1897,6 @@ nav {
   .logo-area {
     margin: 0;
   }
-
   .site-header .widget-area {
     margin-top: -19.5rem;
   }
@@ -2128,16 +2127,19 @@ nav {
     text-align: center;
   }
   .nav-primary .genesis-nav-menu a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .site-description {
-    font-size: 14px;
+    font-size: 16px;
   }
   .site-title {
     font-size: 18px;
   }
-  .site-inner,
+
+
+
   .wrap {
+    margin: 0;
   }
 
   .site-header {
@@ -2157,7 +2159,7 @@ nav {
     right: 2rem !important;
     margin-top: 0 !important;
   }
-  #polylang-2 {
+    #polylang-2 {
     float: right;
     margin-right: 0;
   }

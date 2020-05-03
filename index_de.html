@@ -55,7 +55,9 @@ body.custom-background { background-color: #ffffff; }
 <body style="zoom: 1;">		
     <div class="site-container">
 		<!--  ab hier HEADER -->
-		<header class="site-header" class="topcon" role="banner"><section id="polylang-2" class="widget widget_polylang"><!-- <div class="widget-wrap"> --><ul>
+		<header class="site-header" class="topcon" style="background: url('./images/bg_header.jpg') no-repeat center center;" role="banner"><section id="polylang-2" class="widget widget_polylang">
+			<!-- <div class="widget-wrap"> -->
+				<ul>
       <li class="lang-item lang-item-46 lang-item-en"><a hreflang="en" href="index.html">English</a></li>
     </ul>
 	<!-- </div> end wrap -->
@@ -189,25 +191,23 @@ body.custom-background { background-color: #ffffff; }
   <div style="width: 25%;"><h4 class="widget-title widgettitle" style="text-align: center;">Finden Sie uns in<br>ZÜRICH: </h4><a href="https://goo.gl/maps/PszHtJZ6fXSkfD5b7"><img src="./images/mapzur.jpg" alt="map zuerich"></a><!--<iframe style="height: 200px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10800.108312070755!2d8.553361!3d47.411413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5da554673a6eaaa6!2sZurich%20Exhibition%20Hall!5e0!3m2!1sen!2ses!4v1588022572277!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>--></div>
   <div style="width: 25%;"><h4 class="widget-title widgettitle" style="text-align: center;">Finden Sie uns in<br>BERLIN: </h4><a href="https://goo.gl/maps/JAnsSASGviZhLF366"><img src="./images/mapber.jpg" alt="map berlin"></a><!--<iframe style="height: 200px;" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4857.36437320631!2d13.46756262760045!3d52.50299231924382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sberlin%20ostkreuz!5e0!3m2!1sen!2ses!4v1588022686517!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>--></div>
   </div>
-
 <br>
-<div class="c-cookies || js-cookies" id="myDIV" style="border-style: solid;">
+<!-- ab hier cookie  -->
+<div class="c-cookies || js-cookies" id="myDIV">
     <div class="l-grid">
         <div style="width: 100%; text-align: center; display: flex; justify-content: center;">
-            <div style="text-align: center;">
+			<div style="width: 80%; text-align: center; border-style: solid; display: flex; flex-direction: row; justify-content: center;">
+								            <button style="text-align: center;" onclick="hidecookies()" class="c-cookies__btn || c-btn c-btn--primary || js-cookies-close">
+              <span class="c-btn__text">Akzeptieren</span>   </button>
                 <p>
                     Ihre Privatsphäre hat für uns höchste Priorität, weshalb wir Sie darüber informieren möchten, dass wir unsere Datenschutzrichtlinie aktualisiert haben. Diese Website verwendet keine Cookies. Wir tracken Sie nicht und wir zählen Ihre Clicks nicht. Wir speichern keine Daten.
-                    
-                </p>            
-            </div>
-            <button onclick="hidecookies()" class="c-cookies__btn || c-btn c-btn--primary || js-cookies-close">
-              <span class="c-btn__text">Akzeptieren</span>
-            </button>
+				</p>     
+            </div>  
         </div>
     </div>
 </div>
-
 <!-- cookie ende  -->
+
 </div><!-- ende hauptbereich  -->
 <!--</div>--> <!-- ende body  -->
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i style="font-size: 150%" class="fa fa-arrow-circle-o-up"></i></button>
