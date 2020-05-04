@@ -1246,6 +1246,7 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
   float: left;
   display: block;
   width: 100%;
+  padding-left: 0rem;
   /*clear: both;*/
   position: relative;
   overflow: auto;
@@ -1279,7 +1280,7 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 border: 0px solid #000000;
 }
 .top-posts-io .post-item:nth-child(3) {
-  margin-top: -15rem;
+  margin-top: -22rem;
   border-bottom-left-radius: 65px;
 }
 .top-posts-io .post-item:nth-child(1) h2,
@@ -1340,10 +1341,10 @@ border: 0px solid #000000;
 
 .right-sidebar-widgets {
   /*width: 30%;
-  	margin: 0 2rem 0 0;*/
-  width: 31%;
- /* margin: 1rem 1rem 0 0;*/
-  padding: 1rem 1rem 0 0;
+    margin: 0 2rem 0 0;*/
+    /* margin: 0rem 1rem 0 0;*/
+  width: 32%;
+  /*padding: 0rem 2rem 0 0rem;*/
   display: block;
   position: relative;
   float: right;
@@ -1469,7 +1470,7 @@ border: 0px solid #000000;
   position: relative;
   float: left;
   /*margin-top: 8rem;*/
-  padding: 4rem;
+  padding: 1rem 0 0 0;
 }
 .popular-posts-io h2,
 .instagram-io h2 {
@@ -1725,9 +1726,7 @@ nav {
     width: 48.5%;
   }
 
-  .left-posts-io {
-    margin: 0 3.5rem 0 0;
-  }
+
   .left-posts-io .post-item:nth-child(1),
   .left-posts-io .post-item:nth-child(4) {
     margin-right: 2rem;
@@ -1762,7 +1761,7 @@ nav {
     padding-right: 0.5rem;
   }
   .instagram-io {
-    padding-left: 0.5rem;
+    padding-left: 0.0rem;
   }
 
   .popular-posts-io .post-popular-item {
@@ -1910,7 +1909,7 @@ nav {
   .right-sidebar-widgets .widget {
     display: block;
     float: left;
-    width: 47%;
+
   }
   .right-sidebar-widgets .widget:nth-child(1) {
     margin-right: 2rem;
@@ -2103,8 +2102,19 @@ nav {
   .site-title {
     font-size: 18px;
   }
+.top-posts-io{
+  padding-right: 1rem;
+}
+.categorias{
+  font-size: 1.6rem !important;
+}
+#unten{
+  display: flex;
+}
 
-
+.left-posts-io {
+  margin: 0 0 0 0;
+}
 
   .wrap {
     margin: 0;
@@ -2333,6 +2343,7 @@ nav {
 }
 
 .sticky + .main {
-  padding-top: 102px;
+  /*padding-top: 102px;*/
+  padding-top: 20px;
 }
 /* ende sticky menu */
