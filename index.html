@@ -33,59 +33,7 @@
 <script type="text/javascript" src="./js/ion.js"></script>
 <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
 <!-- from here loader -->
-<style>
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
-</style>
 <!-- end loader  -->
 <!--<script type="text/javascript" src="./js/jquery.js"></script>
 <script type="text/javascript" src="./js/jquery-migrate.min.js"></script>
@@ -153,7 +101,7 @@ body.custom-background { background-color: #ffffff; }
 				<div class="post-item">
 					<div class="post-item-background" style="background: url(./smara/kranz.jpg) center no-repeat black; background-size: cover;"></div>
 					<div class="post-item-content">
-						<img src="./images/io-logop.png">
+						<img src="./images/io-logop.png" alt="logo">
 						<h2><a href="smara.html">SMARA OAIE</a></h2>
 						<span class="categorias"><a href="art.html" rel="category tag">art</a> | <a href="smara.html" rel="category tag">artist</a> | <a rel="category tag">CERAMIC DESIGN</a></span>
 					</div>
@@ -236,7 +184,7 @@ body.custom-background { background-color: #ffffff; }
 </div>
 <div class="instagram-io">
   <h2>Instagram</h2><img src="./images/metro.jpg" alt="Instagram#1"><img src="./images/terrNass.jpg" alt="Instagram#2"></div>
-</div></section>
+	</div></section></aside>
 
 </div></div><!-- bis hier main ohne maps und cookie -->
 
@@ -252,7 +200,7 @@ body.custom-background { background-color: #ffffff; }
 <div class="c-cookies || js-cookies" id="myDIV">
     <div class="l-grid">
         <div style="width: 100%; text-align: center; display: flex; justify-content: center;">
-			<div style="width: 80%; text-align: center; border-style: solid; display: flex; flex-direction: row; justify-content: center;">
+<div class="cookiebox">
 								            <button style="text-align: center;" onclick="hidecookies()" class="c-cookies__btn || c-btn c-btn--primary || js-cookies-close">
               <span class="c-btn__text">Accept</span>   </button>
                 <p>
