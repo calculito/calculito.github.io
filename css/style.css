@@ -2105,6 +2105,10 @@ nav {
 .top-posts-io{
   padding-right: 1rem;
 }
+.top-posts-io .post-item {
+  margin-bottom: 20px !important;
+}
+
 .categorias{
   font-size: 1.6rem !important;
 }
@@ -2184,6 +2188,7 @@ nav {
     width: 100% !important;
     height: 38rem !important;
     padding-top: 21.5rem !important;
+    
   }
   .post-item h2 {
     margin-top: -5rem !important;
