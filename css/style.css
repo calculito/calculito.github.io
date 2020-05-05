@@ -574,6 +574,10 @@ th {
 }
 
 .site-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   clear: both;
   /*padding-top: 40px;*/
 }
@@ -1299,7 +1303,7 @@ border: 0px solid #000000;
 .left-posts-io {
   float: left;
   display: block;
-  width: 64%;
+  width: 62%;
   /*margin: 0 3.5rem 0 2rem;*/
   margin: 0 1rem 0 1rem;
 }
@@ -1345,7 +1349,7 @@ border: 0px solid #000000;
     margin: 0 2rem 0 0;*/
     /* margin: 0rem 1rem 0 0;*/
   width: 32%;
-  /*padding: 0rem 2rem 0 0rem;*/
+  padding: 0rem 2rem 0 0rem;
   display: block;
   position: relative;
   float: right;
@@ -1731,7 +1735,7 @@ nav {
   }
 
   .top-posts-io .post-item {
-    margin: 0 1.5% 1.5% 0;
+    margin: 0 0.75% 1.5% 0;
     width: 48.5%;
   }
 
@@ -1780,9 +1784,9 @@ nav {
   .single-post .site-inner {
     padding: 0;
   }
-  .site-inner {
-    padding-left: 0;
-  }
+  /*.site-inner {
+    padding-left: 1rem;
+  }*/
 
   /*		Footer 		*/
   .footer-widgets-1,
@@ -1914,6 +1918,8 @@ nav {
   .right-sidebar-widgets {
     width: 100%;
     margin-bottom: 0;
+    padding: 0rem 0rem 0 0rem;
+
   }
   .right-sidebar-widgets .widget {
     display: block;
