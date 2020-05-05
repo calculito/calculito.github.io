@@ -566,7 +566,7 @@ th {
 }
 .site-inner,
 .wrap {
-  margin: 0 auto;
+ /* margin: 0 auto;*/
   max-width: 140rem;
 }
 .footer-widgets .wrap {
@@ -1246,7 +1246,7 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
   float: left;
   display: block;
   width: 100%;
-  padding: 0rem 2rem 0rem 2rem;
+  /*padding: 0rem 2rem 0rem 2rem;*/
 
   /*clear: both;*/
   position: relative;
