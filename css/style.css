@@ -1701,7 +1701,8 @@ nav {
     max-width: 140rem;
   }
   body{
-    border: 140px solid white;
+    border-left: 140px solid white;
+    border-right: 140px solid white;
   }
   .nav-primary .genesis-nav-menu a {
     font-size: 2rem;
