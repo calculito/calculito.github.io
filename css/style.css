@@ -1693,6 +1693,9 @@ nav {
   .pagination {
     max-width: 140rem;
   }
+  body{
+    border: 10% solid white;
+  }
   .nav-primary .genesis-nav-menu a {
     font-size: 2rem;
   }
