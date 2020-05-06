@@ -1687,6 +1687,13 @@ nav {
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
+@media only screen and (min-width: 1800px) {
+  body{
+    border-left: 200px solid white;
+    border-right: 200px solid white;
+  }
+}
+
 @media only screen and (min-width: 1400px) {
   .site-inner,
   .wrap,
@@ -1694,7 +1701,7 @@ nav {
     max-width: 140rem;
   }
   body{
-    border: 10% solid white;
+    border: 140px solid white;
   }
   .nav-primary .genesis-nav-menu a {
     font-size: 2rem;
