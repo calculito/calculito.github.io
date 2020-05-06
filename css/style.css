@@ -955,7 +955,7 @@ img.alignright,
   line-height: 1;
   width: 100%;
   position: relative;
-  left: 5%;
+  /*padding-left: 5%;*/
   padding-top:2%;
 }
 
