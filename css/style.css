@@ -1224,9 +1224,9 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
   -ms-transition: background-color 2s linear;
   transition: background-color 2s linear;
 }
-.post-item .post-item-content img {
+/*.post-item .post-item-content img {
   margin-left: 1.5rem;
-}
+}*/
 
 .post-item h2 {
   text-align: center;
