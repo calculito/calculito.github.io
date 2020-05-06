@@ -816,7 +816,7 @@ img.alignright,
 }
 
 .site-header .wrap {
-  padding: 20px 0;
+  padding-top: 30px;
 }
 
 /* ## Logo Area
@@ -897,6 +897,10 @@ img.alignright,
 --------------------------------------------- */
 
 .site-header .widget-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
   float: right;
   text-align: center;
   position: relative;
@@ -1097,10 +1101,10 @@ img.alignright,
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu .current-menu-item > a,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: #fff;
-  background-color: rgb(38, 48, 51);
+  color: black;
+  /*background-color: rgb(38, 48, 51);
   border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  border-top-left-radius: 15px;*/
 }
 
 /* ## Secondary Navigation
@@ -1893,7 +1897,7 @@ nav {
 		min-height: 300px;
 	}*/
   .site-header .wrap {
-    padding: 0 5%;
+    padding: 30px 5%;
   }
   .logo-area {
     margin: 0;
@@ -2093,7 +2097,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: #fff;
     font-size: 14px;
@@ -2136,6 +2140,7 @@ align-items: center;
   }
   .nav-primary .genesis-nav-menu a {
     font-size: 1.4rem;
+  }
   .site-description {
     font-size: 16px;
   }

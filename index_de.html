@@ -56,15 +56,61 @@ body.custom-background { background-color: #ffffff; }
 
 <body style="zoom: 1;">
 	<div class="site-container">
+		<!-- ab hier nav -->
+		<div class="navigaion" id="navigaid">
+			<nav class="nav-primary" role="navigation">
+				<div class="wrap">
+					<ul id="menu-menu" class="menu genesis-nav-menu menu-primary">
+						<li id="menu-item-569"
+							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680">
+							<a hreflang="de" href="index.html"><img src="./images/flaguk.png" style="width:20px"
+									height="20px"></a></li>
+						<li id="menu-item-532"
+							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-532"><a
+								href="index_de.html">KÜNSTLER/INNEN</a></li>
+						<li id="menu-item-534"
+							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-534"><a
+								href="art_de.html">KUNST</a></li>
+						<li id="menu-item-537"
+							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-537"><a
+								href="things_de.html">SACHEN ;)</a></li>
+						<li id="menu-item-5680"
+							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680">
+							<a href="kontakt.html">KONTAKT</a></li>
+
+						<!--<li id="menu-item-5824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5824"><a href="no url/en/io-things/">about us</a></li>-->
+						<!--<li id="menu-item-531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-531"><a href="no url/en/art/">friends</a></li>-->
+						<!--<li id="menu-item-535" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-535"><a href="no url/en/getaways/">events</a></li>-->
+						<li id="kreuz" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680">
+							<div class="topnav">
+								<a href="javascript:void(0);" onclick="mymenu()" id="menumob1" class="active">&nbsp;</a>
+								<!-- Navigation links (hidden by default) -->
+								<div id="myLinks">
+									<div id="centermobmenu">
+										<a href="index_de.html"><img src="./images/german.svg" style="width:20px"
+												height="20px"></a>
+										<a href="things_de.html">sachen ;)</a>
+										<a href="art_de.html">kunst</a>
+										<a href="kontakt.html">contact</a>
+										<a onclick="mymenu()" id="xmenumob"><i class="fa fa-times-circle fa-2x"></i></a>
+									</div>
+								</div>
+								<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+								<a href="javascript:void(0);" class="icon" id="menumob2" onclick="mymenu()">
+									<i class="fa fa-bars fa-2x"></i>
+								</a>
+
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- ende nav -->
 		<!--  ab hier HEADER -->
-		<header class="site-header" class="topcon">
-			<section id="polylang-2" class="widget widget_polylang">
-				<!-- <div class="widget-wrap"> -->
-				<ul>
-					<li class="lang-item lang-item-46 lang-item-en"><a hreflang="en" href="index.html">English</a></li>
-				</ul>
-				<!-- </div> end wrap -->
-			</section>
+		<header class="site-header" class="topcon" role="banner">
+
 			<div class="wrap">
 				<div class="title-area">
 					<h1 class="site-title" itemprop="headline">John Glass & Mouton&nbsp;| KUNSTGALERIE</h1>
@@ -73,53 +119,7 @@ body.custom-background { background-color: #ffffff; }
 			</div>
 		</header>
 		<!--  ende header  -->
-		<!-- ab hier nav -->
-		<div class="navigaion" id="navigaid">
-			<nav class="nav-primary" role="navigation" itemscope="itemscope"
-				itemtype="http://schema.org/SiteNavigationElement">
-				<div class="wrap">
-					<ul id="menu-menu-superior-en" class="menu genesis-nav-menu menu-primary">
 
-						<li id="menu-item-532"
-							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-532"><a
-								href="index_de.html">Künstler/innen</a></li>
-
-						<li id="menu-item-534"
-							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-534"><a
-								href="art_de.html">KUNST</a></li>
-
-						<li id="menu-item-537"
-							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-537"><a
-								href="things_de.html">SACHEN ;)</a></li>
-						<li id="menu-item-5680"
-							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680"><a
-								href="kontakt.html">KONTAKT</a></li>
-						<!--<li id="menu-item-5824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5824"><a href="no url/en/io-things/">ÜBER UNS</a></li>-->
-						<!--<li id="menu-item-535" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-535"><a href="no url/en/getaways/">VERANSTALTUNGEN</a></li>-->
-						<!--<li id="menu-item-531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-531"><a href="no url/en/art/">FREUNDE</a></li>-->
-
-
-						<li id="kreuz" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680">
-							<div class="topnav">
-								<a href="javascript:void(0);" onclick="mymenu()" id="menumob1" class="active">&nbsp;</a>
-								<!-- Navigation links (hidden by default) -->
-								<div id="myLinks">
-									<a href="things_de.html">SACHEN ;</a>
-									<a href="art_de.html">KUNST</a>
-									<a href="kontakt.html">KONTAKT</a>
-									<a onclick="mymenu()" id="xmenumob"><i class="fa fa-times-circle"></i></a>
-								</div>
-								<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-								<a href="javascript:void(0);" class="icon" id="menumob2" onclick="mymenu()">
-									<i class="fa fa-bars fa-2x"></i>
-								</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-		<!-- ende nav -->
 		<!-- ab hier hauptbereich -->
 		<div class="main">
 			<!-- ab hier hauptbereich ohne map und cookie  -->
