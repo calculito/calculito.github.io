@@ -2105,8 +2105,9 @@ nav {
 
 @media only screen and (max-width: 768px) {
   body {
-    background-color: #fff;
+    
     font-size: 14px;
+    border: 10px solid white;
   }
   #menu-item-532,
   #menu-item-535,
