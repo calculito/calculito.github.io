@@ -1073,6 +1073,9 @@ img.alignright,
   float: right;*/
   position: relative;
 }
+#navigaid{
+  padding-left:20px;
+}
 
 .nav-primary .genesis-nav-menu a {
   /*color: #fff;*/
