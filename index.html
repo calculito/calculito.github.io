@@ -56,18 +56,17 @@ body.custom-background { background-color: #ffffff; }
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
-<body style="zoom: 1; margin:0;" onload="loader()">
-	<div id="loader"></div>
-	<div class="site-container" style="display:none;" id="myDiv" class="animate-bottom">
+<body style="zoom: 1;">
+	<div class="site-container">
 		<!-- ab hier nav -->
 		<div class="navigaion" id="navigaid">
 			<nav class="nav-primary" role="navigation">
 				<div class="wrap">
 					<ul id="menu-menu" class="menu genesis-nav-menu menu-primary">
-						<li id="menu-item-569"
+						<!--<li id="menu-item-569"
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5680">
-							<a hreflang="de" href="index_de.html"><img src="./images/german.svg" style="width:25px"
-									height="25px"></a></li>
+							<a hreflang="de" href="index_de.html"><img src="./images/german.svg" style="width:20px"
+									height="20px"></a></li>-->
 						<li id="menu-item-532"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-532"><a
 								href="index.html">artists</a></li>
@@ -89,15 +88,21 @@ body.custom-background { background-color: #ffffff; }
 								<a href="javascript:void(0);" onclick="mymenu()" id="menumob1" class="active">&nbsp;</a>
 								<!-- Navigation links (hidden by default) -->
 								<div id="myLinks">
-									<a href="things.html">things</a>
-									<a href="art.html">art</a>
-									<a href="contact.html">contact</a>
-									<a onclick="mymenu()" id="xmenumob"><i class="fa fa-times-circle"></i></a>
+									<div id="centermobmenu">
+										<a href="index_de.html"><img src="./images/german.svg" style="width:20px"
+												height="20px"></a>
+										<a href="things.html">things</a>
+										<a href="art.html">art</a>
+										<a href="contact.html">contact</a>
+										<a onclick="mymenu()" id="xmenumob"><i class="fa fa-times-circle fa-2x"></i></a>
+									</div>
 								</div>
 								<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
 								<a href="javascript:void(0);" class="icon" id="menumob2" onclick="mymenu()">
-									<i class="fa fa-bars fa"></i>
+									<i class="fa fa-bars fa-2x"></i>
 								</a>
+
+
 							</div>
 						</li>
 					</ul>
