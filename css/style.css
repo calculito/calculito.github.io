@@ -563,7 +563,7 @@ th {
 /* ## Site Containers
 --------------------------------------------- */
 .site-header{
-  min-height: 200px;
+  height: 100px;
 }
 .site-inner,
 .wrap {
@@ -813,7 +813,7 @@ img.alignright,
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  min-height: 150px;
+  height: 100px;
 }
 
 .site-header .wrap {
@@ -860,6 +860,7 @@ img.alignright,
   width: 100%;
   text-transform: uppercase;
   font-family: "itc_lubalin_graphdemi";
+  text-align: end;
 }
 
 .site-title a,
@@ -881,6 +882,7 @@ img.alignright,
   font-family: "georgiaitalic";
   margin-top: 1rem;
   word-wrap: break-word;
+  text-align: end;
 }
 
 .site-description,
@@ -1875,7 +1877,7 @@ nav {
 
   .site-header {
     background-size: cover;
-    height: 200px;
+    height: 100px;
   }
   .site-header .wrap {
     margin: 0;
