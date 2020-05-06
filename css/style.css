@@ -1190,7 +1190,7 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
   -ms-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
-border: 25px solid white /*mai 2020*/
+border-top: 25px solid white /*mai 2020*/
 }
 .post-item:hover .post-item-background {
   -webkit-transform: scale(1.3);
