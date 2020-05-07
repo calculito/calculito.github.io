@@ -902,7 +902,6 @@ img.alignright,
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-
   float: right;
   text-align: center;
   position: relative;
@@ -1078,9 +1077,7 @@ img.alignright,
   float: right;*/
   position: relative;
 }
-#navigaid{
-  /*padding-left:20px;*/
-}
+
 
 .nav-primary .genesis-nav-menu a {
   /*color: #fff;*/
@@ -1436,26 +1433,7 @@ border: 0px solid #000000;
   margin: 0 auto;
 }
 
-#mc_embed_signup {
-  background-color: #f0f0f1 !important;
-  width: 100% !important;
-}
-#mc_embed_signup_scroll {
-  display: inline-block;
-  width: 100%;
-}
-#mc_embed_signup .mc-field-group input {
-  font-family: "helveticaneuelt_stdregular";
-  font-size: 1.5rem;
-}
-#mc_embed_signup .button {
-  float: right;
-  margin: 0 15px 10px 0 !important;
-  font-family: "helveticaneuelt_stdregular";
-  text-transform: uppercase;
-  background-color: #59595b !important;
-  border-radius: 0 !important;
-}
+
 .right-sidebar-widgets > .widget:nth-child(2) > .widget-wrap > h4.widget-title,
 .right-sidebar-widgets > .widget:nth-child(3) > .widget-wrap > h4.widget-title {
   font-family: "helveticaneuelt_stdregular";
@@ -1654,11 +1632,7 @@ nav {
 /* Navigation toggles
 --------------------------------------------- */
 
-.sub-menu-toggle,
-.menu-toggle {
-  display: none;
-  visibility: hidden;
-}
+
 
 /* Navigation toggles - Ensure Menu Displays when Scaled Up
 --------------------------------------------- */
@@ -1758,9 +1732,7 @@ nav {
   .pagination {
     max-width: 120rem;
   }
-  .site-inner {
-    /*padding: 0 2rem;*/
-  }
+
   .single-post .site-inner {
     max-width: 100%;
   }
@@ -1894,9 +1866,7 @@ nav {
   .pagination {
     max-width: 96rem;
   }
-  .site-inner {
-   /* padding: 0 2rem;*/
-  }
+
   .single-post .site-inner {
     max-width: 100%;
   }
@@ -2228,9 +2198,7 @@ align-items: center;
   .pagination {
     max-width: 80rem;
   }
-  .site-inner {
-    /*padding: 0 1rem;*/
-  }
+
   .single-post .site-inner {
     max-width: 100%;
   }
@@ -2302,29 +2270,7 @@ align-items: center;
     padding: 40px;
   }
 
-  .single-post.full-width-content .content {
-    padding: 0 2rem;
-    width: 100%;
-  }
 
-  .single-post header.entry-header {
-    padding: 0 2rem;
-  }
-  .single-post #mc_embed_signup h4 {
-    font-size: 1.2rem;
-  }
-  .single-post #mc_embed_signup {
-    margin-bottom: 2rem;
-  }
-  .single-post div.wp_rp_wrap ul.related_post li {
-    width: 100%;
-    min-height: 27rem;
-    display: block;
-  }
-
-  .banner-lateral {
-    display: none;
-  }
 }
 /*ab hier herzen*/
 .heart {
