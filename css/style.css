@@ -310,6 +310,7 @@ body {
   color: #333;
   /*font-family: Lato, sans-serif;*/
   font-family: "georgiaitalic";
+
   font-size: 18px;
   font-weight: 300;
   line-height: 1.625;
@@ -819,6 +820,13 @@ img.alignright,
 
 .site-header .wrap {
   padding-top: 20px;
+  /* hier versuch titel im menu*/
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* ## Logo Area
@@ -1616,11 +1624,11 @@ a[title="SumoMe"] {
 
 /* #  Navigation
 ---------------------------------------------------------------------------------------------------- */
-#myLinks{
+/*#myLinks{
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-}
+}*/
 
 /* Standard Navigation
 --------------------------------------------- */
@@ -1854,7 +1862,6 @@ nav {
   }
 
   .site-header {
-    background-size: cover;
     height: 100px;
   }
   .site-header .wrap {
@@ -2099,7 +2106,25 @@ nav {
     border: 10px solid white;
   }
 
+.mylinks{
+  width: 100%;
+}
+.widget-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#menu-menu{
+  display: flex;
+  justify-content: center;
+}
+
+html{
+  font-size: 100%;
+}
+
   #menu-item-532,
+  #titelglas,
   #menu-item-535,
   #menu-item-534,
   #menu-item-531,
@@ -2130,6 +2155,7 @@ nav {
 #centermobmenu{
 display: flex;
 flex-direction: row;
+justify-content: space-between;
 align-items: center;
 }
   .genesis-nav-menu,
