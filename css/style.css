@@ -818,7 +818,7 @@ img.alignright,
 }
 
 .site-header .wrap {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 /* ## Logo Area
@@ -1063,7 +1063,9 @@ img.alignright,
 
 .nav-primary {
   /*background-color: #333;*/
-  
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
   background-color: transparent;
  /* background-image: url(../images/bgmenu.jpg);
  border-bottom: rgb(38, 48, 51) 1px solid;
@@ -1077,7 +1079,7 @@ img.alignright,
   position: relative;
 }
 #navigaid{
-  padding-left:20px;
+  /*padding-left:20px;*/
 }
 
 .nav-primary .genesis-nav-menu a {
@@ -1284,9 +1286,14 @@ border-top: 25px solid white /*mai 2020*/
   float: left;
   display: block;
   position: relative;
-  margin: 0 0.75% 1.5%;
+  margin: 0 0 1.5%;
   width: 48.4%;
 }
+
+.top-posts-io .post-item:nth-child(1),
+.top-posts-io .post-item:nth-child(3){
+margin-right: 2rem;}
+
 .top-posts-io .post-item:nth-child(1),
 .top-posts-io .post-item:nth-child(1) > div > h2 > a,
 .top-posts-io .post-item:nth-child(4),
@@ -1752,7 +1759,7 @@ nav {
     max-width: 120rem;
   }
   .site-inner {
-    padding: 0 2rem;
+    /*padding: 0 2rem;*/
   }
   .single-post .site-inner {
     max-width: 100%;
@@ -1888,7 +1895,7 @@ nav {
     max-width: 96rem;
   }
   .site-inner {
-    padding: 0 2rem;
+   /* padding: 0 2rem;*/
   }
   .single-post .site-inner {
     max-width: 100%;
@@ -1914,7 +1921,8 @@ nav {
 		min-height: 300px;
 	}*/
   .site-header .wrap {
-    padding: 30px 5%;
+    /*padding: 30px 5%;*/
+    min-width: 100px;
   }
   .logo-area {
     margin: 0;
@@ -2117,10 +2125,10 @@ nav {
 
 @media only screen and (max-width: 768px) {
   body {
-    
     font-size: 14px;
-    border: 1px solid white;
+    border: 10px solid white;
   }
+
   #menu-item-532,
   #menu-item-535,
   #menu-item-534,
@@ -2146,6 +2154,7 @@ nav {
 }
 #menumob2 {
   padding: 10px;
+  left: 1px;
   margin: 5px;
 }
 #centermobmenu{
@@ -2192,24 +2201,24 @@ align-items: center;
   .site-header {
     /*background-size: cover;*/
     height: 100px;
-        margin: 0;
+    margin: 0;
     /*margin-top: 1rem;*/
     font-size: small;
-    background-size: 780px;
   }
   .site-header .wrap {
     margin: 0;
   }
+  #navigaid{
+    padding: 0px;
+  }
+
   .site-header .widget-area {
     position: absolute !important;
     top: 0 !important;
     right: 2rem !important;
     margin-top: 0 !important;
   }
-    #polylang-2 {
-    float: right;
-    margin-right: 0;
-  }
+
   .site-header .wrap .widget-area .widget:nth-child(1) {
     display: none;
   }
@@ -2220,7 +2229,7 @@ align-items: center;
     max-width: 80rem;
   }
   .site-inner {
-    padding: 0 1rem;
+    /*padding: 0 1rem;*/
   }
   .single-post .site-inner {
     max-width: 100%;
