@@ -1063,9 +1063,9 @@ img.alignright,
 
 .nav-primary {
   /*background-color: #333;*/
-  border-top: 1px solid gray;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  border-top: 1px solid rgb(219, 219, 219);
+  border-left: 1px solid rgb(219, 219, 219);
+  border-right: 1px solid rgb(219, 219, 219);
   background-color: transparent;
  /* background-image: url(../images/bgmenu.jpg);
  border-bottom: rgb(38, 48, 51) 1px solid;
