@@ -962,7 +962,7 @@ img.alignright,
   clear: both;
   font-size: 16px;
   line-height: 1;
-  width: 100%;
+  /*width: 100%;*/
   position: relative;
   /*padding-left: 5%;*/
   padding-top:1%;
@@ -2106,6 +2106,10 @@ nav {
     border: 10px solid white;
   }
 
+  .nav-primary .genesis-nav-menu a {
+    padding: 0rem 3rem;
+  }
+
 .mylinks{
   width: 100%;
 }
@@ -2119,9 +2123,7 @@ nav {
   justify-content: center;
 }
 
-html{
-  font-size: 100%;
-}
+
 
   #menu-item-532,
   #titelglas,
@@ -2164,7 +2166,7 @@ align-items: center;
     padding-top: 0;
   }
   .nav-primary .genesis-nav-menu a {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
   .site-description {
     font-size: 16px;
