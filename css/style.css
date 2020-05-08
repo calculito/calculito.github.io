@@ -1624,13 +1624,7 @@ a[title="SumoMe"] {
   display: none !important;
 }
 
-/* #  Navigation
----------------------------------------------------------------------------------------------------- */
-/*#myLinks{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}*/
+
 
 /* Standard Navigation
 --------------------------------------------- */
@@ -1639,10 +1633,6 @@ nav {
   clear: both;
 }
 
-/* Navigation toggles
---------------------------------------------- */
-
-
 
 /* Navigation toggles - Ensure Menu Displays when Scaled Up
 --------------------------------------------- */
@@ -1650,30 +1640,6 @@ nav {
 .post-edit-link {
   clear: both;
   display: block;
-}
-
-/* # Banner lateral
----------------------------------------------------------------------------------------------------- */
-
-.banner-lateral {
-  width: 19.4rem;
-  height: 21.8rem;
-  display: block;
-  position: fixed;
-  top: 65%;
-  right: 0;
-  z-index: 1;
-}
-.banner-lateral a {
-  width: 19.4rem;
-  height: 21.8rem;
-  display: block;
-}
-.banner-lateral.banner-lateral-esp {
-  background: url("images/banner-lateral-esp.png") no-repeat;
-}
-.banner-lateral.banner-lateral-eng {
-  background: url("images/banner-lateral-angles.png") no-repeat;
 }
 
 /* # Media Queries
@@ -1896,9 +1862,7 @@ nav {
     width: 100%;
   }
 
-  /*.site-header {
-		min-height: 300px;
-	}*/
+
   .site-header .wrap {
     /*padding: 30px 5%;*/
     min-width: 100px;
@@ -2114,14 +2078,18 @@ nav {
 
 .mylinks{
   width: 100%;
+  justify-self: center;
 }
 .widget-title {
     font-size: 14px;
     margin-bottom: 20px;
 }
 
-
-
+#menu-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
 
 
   #menu-item-532,
@@ -2153,9 +2121,9 @@ nav {
   margin: 5px;
 }
 #centermobmenu{
+  padding-top:15px;
 display: flex;
 flex-direction: row;
-justify-content: space-between;
 align-items: center;
 }
   .genesis-nav-menu,
