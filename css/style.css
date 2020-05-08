@@ -820,14 +820,16 @@ img.alignright,
 
 .site-header .wrap {
   padding-top: 20px;
-  /* hier versuch titel im menu*/
+ 
 }
-.wrap{
+
+ /* hier versuch titel im menu*/
+/*.wrap{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-}
+}*/
 
 /* ## Logo Area
 --------------------------------------------- */
@@ -2118,15 +2120,11 @@ nav {
     margin-bottom: 20px;
 }
 
-#menu-menu{
-  display: flex;
-  justify-content: center;
-}
+
 
 
 
   #menu-item-532,
-  #titelglas,
   #menu-item-535,
   #menu-item-534,
   #menu-item-531,
@@ -2166,7 +2164,7 @@ align-items: center;
     padding-top: 0;
   }
   .nav-primary .genesis-nav-menu a {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .site-description {
     font-size: 16px;
