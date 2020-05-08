@@ -1201,9 +1201,19 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
   -ms-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
-border-top: 25px solid white /*mai 2020*/
+border-top: 25px solid white; /*mai 2020*/
+  -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);
 }
+
+/*
+background: url(./jjmouton/atworkbg.jpg)
+  background: url(../jjmouton/atwork.jpg) center no-repeat ;
+  */
+
 .post-item:hover .post-item-background {
+    -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
   -webkit-transform: scale(1.3);
   -moz--transform: scale(1.3);
   -ms-transform: scale(1.3);
