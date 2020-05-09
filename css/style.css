@@ -82,8 +82,9 @@ html {
 body {
   
   border: 10px solid white;
-  display: flex;
+  /*display: flex;
   flex-direction: row;
+  justify-content: center;*/
 }
 .title-area{
   display: flex;
@@ -92,9 +93,9 @@ body {
 }
 
 #menu-menu {
-    display: flex;
+    /*display: flex;  
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;*/
 }
   #menu-item-532,
   #menu-item-535,
@@ -110,8 +111,8 @@ body {
   #centermobmenu{
 padding-top:15px;
 display: flex;
-flex-direction: column;
-align-items: flex-start;
+flex-direction: row;
+align-items: center;
 }
 
 
@@ -319,6 +320,7 @@ th {
 
 .site-container {
   width: 100%;
+
 }
 
 #unten {
@@ -596,20 +598,16 @@ th {
 .site-header{
   height: 100px;
 }
-.site-inner,
-.wrap {
- /* margin: 0 auto;*/
-  max-width: 140rem;
-}
+
 .footer-widgets .wrap {
   padding: 0 4rem;
 }
 
 .site-inner {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   clear: both;
   /*padding-top: 40px;*/
 }
@@ -1674,10 +1672,7 @@ nav {
 /* Navigation toggles - Ensure Menu Displays when Scaled Up
 --------------------------------------------- */
 
-.post-edit-link {
-  clear: both;
-  display: block;
-}
+
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
@@ -1690,11 +1685,7 @@ nav {
 }
 
 @media only screen and (min-width: 1400px) {
-  .site-inner,
-  .wrap,
-  .pagination {
-    max-width: 140rem;
-  }
+
   body{
     border-left: 10px solid white;
     border-right: 10px solid white;
@@ -1860,7 +1851,7 @@ nav {
     font-size: 1.4rem;
   }
   .site-title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .site-description {
     font-size: 16px;
@@ -2117,7 +2108,6 @@ nav {
 }
 
 .post-item .post-item-background {
-
   -webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
   filter: grayscale(1%);
     -khtml-opacity: 1;
@@ -2150,12 +2140,7 @@ nav {
   border-top-right-radius: 1px;
   border-top-left-radius: 1px;
 }
-#centermobmenu{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+
 #menumob1 {
   padding: 10px;
 
@@ -2177,7 +2162,7 @@ nav {
     font-size: 16px;
   }
   .site-title {
-    font-size: 12px;
+    font-size: 14px;
     text-align: end;
   }
   .site-description{
@@ -2208,10 +2193,8 @@ nav {
   }
 
   .site-header {
-    /*background-size: cover;*/
     height: 100px;
     margin: 0;
-    /*margin-top: 1rem;*/
     font-size: small;
   }
   .site-header .wrap {
