@@ -1629,12 +1629,7 @@ nav {
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1800px) {
-  body{
-    border-left: 10px solid white;
-    border-right: 10px solid white;
-  }
-}
+
 
 @media only screen and (min-width: 1400px) {
 
@@ -1659,9 +1654,12 @@ nav {
   .site-header {
     background-size: cover;
   }
-
-
-
+.site-title {
+    font-size: 3vw;
+}
+menu a, .nav-primary .genesis-nav-menu a { 
+    font-size: 3vw;
+}
   .site-header .wrap {
     margin: 0;
   }
@@ -1765,9 +1763,7 @@ nav {
 }
 
 @media only screen and (min-width: 960px) {
-  .nav-primary .genesis-nav-menu a {
-    font-size: 1.5vw;
-  }
+
   nav {
     display: block !important;
   }
