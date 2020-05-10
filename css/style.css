@@ -92,6 +92,8 @@ body {
   align-items: flex-end;
 }
 
+
+
 #menu-menu {
     /*display: flex;  
     flex-direction: column;
@@ -109,9 +111,10 @@ body {
   }
 
   #centermobmenu{
-padding-top:15px;
+padding-top:3px;
 display: flex;
 flex-direction: row;
+justify-content: space-evenly;
 align-items: center;
 }
 
@@ -163,19 +166,17 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+
   margin: 0.67em 0;
 }
 mark {
   background: #ff0;
   color: #333;
 }
-small {
-  font-size: 80%;
-}
+
 sub,
 sup {
-  font-size: 75%;
+
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -208,7 +209,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+
 }
 button,
 input,
@@ -342,7 +343,7 @@ body {
   color: #333;
   /*font-family: Lato, sans-serif;*/
   font-family: "georgiaitalic";
-  font-size: 18px;
+  font-size: 2vw;
   font-weight: 300;
   line-height: 1.625;
   margin: 0;
@@ -423,7 +424,6 @@ blockquote {
 blockquote::before {
   content: "\201C";
   display: block;
-  font-size: 30px;
   height: 0;
   left: -20px;
   position: relative;
@@ -448,27 +448,27 @@ h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3vw;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 3vw;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 3vw;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 2vw;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 2vw;
 }
 
 /* ## Objects
@@ -501,7 +501,7 @@ textarea {
   background-color: #fff;
   border: 1px solid #ddd;
   color: #333;
-  font-size: 18px;
+  font-size: 2vw;
   font-weight: 300;
   padding: 16px;
   width: 100%;
@@ -534,7 +534,7 @@ input[type="submit"],
   border: none;
   color: #fff;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 2vw;
   font-weight: 300;
   padding: 16px 24px;
   text-transform: uppercase;
@@ -744,7 +744,7 @@ th {
 --------------------------------------------- */
 
 .widget-title {
-  font-size: 18px;
+  font-size: 2vw;
   margin-bottom: 20px;
 }
 
@@ -804,8 +804,6 @@ img.alignright,
 }
 
 .wp-caption-text {
-  font-size: 14px;
-  /*font-weight: 700;*/
   font-weight: 300;
   text-align: center;
 }
@@ -846,18 +844,6 @@ img.alignright,
 }
 
 
-
- /* hier versuch titel im menu*/
-/*.wrap{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}*/
-
-/* ## Logo Area
---------------------------------------------- */
-
 .logo-area {
   background: url("images/io-logo-header.jpg") no-repeat;
   width: 13rem;
@@ -889,7 +875,8 @@ img.alignright,
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 2vw;
+  text-align: end;
   font-weight: 400;
   line-height: 1.2;
   width: 100%;
@@ -897,20 +884,16 @@ img.alignright,
   font-family: "itc_lubalin_graphdemi";
 }
 
+
 .site-title a,
 .site-title a:hover {
   color: #333;
 }
 
-.header-image .site-title > a {
-  background: url(images/logo.png) no-repeat left;
-  float: left;
-  min-height: 60px;
-  width: 100%;
-}
+
 
 .site-description {
-  font-size: 20px;
+  font-size: 2vw;
   font-weight: 100;
   line-height: 1.1;
   font-family: "georgiaitalic";
@@ -956,37 +939,18 @@ img.alignright,
 .site-header .widget-area .widget_search .search-form input {
   background: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 13px;
+  font-size: 1vw;
   padding: 7px 15px;
 }
 
-#polylang-2 {
-  padding: 0.5rem 1rem;
-  /*background-color: #F0F0F1;*/
-  background-color: #343433;
-  font-family: "helveticaneuelt_stdregular";
-  font-size: 1.5rem;
-  margin-right: 5rem;
-  padding-top: 0.2rem;
-  border-radius: 0px 0px 0.5rem 0.5rem;
-  -moz-border-radius: 0px 0px 0.5rem 0.5rem;
-  -webkit-border-radius: 0px 0px 0.5rem 0.5rem;
-  display: block;
-  float: right;
-}
-#polylang-2 a {
-  color: #d0d2d3;
-}
-#polylang-2 a:hover {
-  color: #fff;
-}
+
 
 /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 
 .genesis-nav-menu {
   clear: both;
-  font-size: 16px;
+  font-size: 2vw;
   line-height: 1;
   /*width: 100%;*/
   position: relative;
@@ -1029,7 +993,7 @@ img.alignright,
   background-color: #fff;
   border: 1px solid #eee;
   border-top: none;
-  font-size: 14px;
+  font-size: 1vw;
   padding: 20px;
   position: relative;
   width: 200px;
@@ -1118,7 +1082,7 @@ img.alignright,
   color: #58595b;
   font-family: "helveticaneuelt_stdregular";
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 2vw;
   /*padding: 2rem 2.4rem;*/
 }
 
@@ -1167,7 +1131,7 @@ cursor: pointer;
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-  font-size: 16px;
+  font-size: 2vw;
 }
 
 .sidebar li {
@@ -1692,24 +1656,13 @@ nav {
     font-size: 2rem;
   }
 
-  .site-title {
-    font-size: 26px;
-  }
-  .site-description {
-    font-size: 20px;
-  }
 }
 
 @media only screen and (max-width: 1399px) and (min-width: 1200px) {
   .nav-primary .genesis-nav-menu a {
     font-size: 2rem;
   }
-  .site-title {
-    font-size: 26px;
-  }
-  .site-description {
-    font-size: 20px;
-  }
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1719,12 +1672,8 @@ nav {
   .nav-primary .genesis-nav-menu a {
     font-size: 1.6rem;
   }
-  .site-title {
-    font-size: 24px;
-  }
-  .si .site-description {
-    font-size: 18px;
-  }
+
+
   .site-header .wrap {
     margin: 0;
   }
@@ -1834,12 +1783,8 @@ nav {
   nav {
     display: block !important;
   }
-  .site-title {
-    font-size: 22px;
-  }
-  .site-description {
-    font-size: 18px;
-  }
+
+
 }
 
 /* Navigation toggles - Mobile (Change max width as you see fit)
@@ -1848,12 +1793,7 @@ nav {
   .nav-primary .genesis-nav-menu a {
     font-size: 1.4rem;
   }
-  .site-title {
-    font-size: 16px;
-  }
-  .site-description {
-    font-size: 16px;
-  }
+
 
   .site-header {
     height: 100px;
@@ -2071,6 +2011,7 @@ nav {
   }
 }
 
+
 @media only screen and (max-width: 768px) and (orientation: landscape) {
   .site-header {
     margin-top: 6.25%;
@@ -2090,7 +2031,7 @@ nav {
 
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 2vw;
     border: 10px solid white;
   }
 
@@ -2141,7 +2082,7 @@ nav {
 
 #menumob1 {
   padding: 10px;
-
+  display: none;
 }
 #menumob2 {
   left: 1px;
@@ -2156,17 +2097,8 @@ nav {
   .nav-primary .genesis-nav-menu a {
     font-size: 1.6rem;
   }
-  .site-description {
-    font-size: 16px;
-  }
-  .site-title {
-    font-size: 14px;
-    text-align: end;
-  }
-  .site-description{
-    font-size: 13px;
-    text-align: end;
-  }
+
+
 
 .top-posts-io{
   padding-right: 1rem;
@@ -2314,7 +2246,15 @@ nav {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
+  position: fixed;
+  top:57px;
+  width: 100vw;
+  background-color: white;
+  left:0;
   display: none;
+}
+.topnav #menumob1{
+ display: none;
 }
 
 /* Style navigation menu links */
@@ -2328,8 +2268,6 @@ nav {
 /* Style the hamburger menu */
 .topnav a.icon {
   display: block;
-  position: absolute;
-  right: 5;
   top: 0;
 }
 
@@ -2359,7 +2297,7 @@ nav {
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 4px 8px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 20px; /* Increase font size */
+  font-size: 3vw; /* Increase font size */
   border-right: 2px solid white;
   border-bottom: 2px solid white;
 }
