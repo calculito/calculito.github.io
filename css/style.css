@@ -94,11 +94,6 @@ body {
 
 
 
-#menu-menu {
-    /*display: flex;  
-    flex-direction: column;
-    align-items: flex-start;*/
-}
   #menu-item-532,
   #menu-item-535,
   #menu-item-534,
@@ -347,6 +342,12 @@ body {
   margin: 0;
 }
 
+.con{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+}
 a,
 button,
 input:focus,
@@ -1775,7 +1776,10 @@ menu a, .nav-primary .genesis-nav-menu a {
 --------------------------------------------- */
 @media only screen and (max-width: 960px) {
 
-
+#centerobmenu{
+  display: flex;
+  justify-content: space-between;
+}
 
   .site-header {
     height: 100px;
@@ -2013,13 +2017,12 @@ menu a, .nav-primary .genesis-nav-menu a {
 
 @media only screen and (max-width: 768px) {
   body {
-
     border: 10px solid white;
   }
 
 
   .nav-primary .genesis-nav-menu a {
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
   }
 
 
@@ -2227,7 +2230,7 @@ menu a, .nav-primary .genesis-nav-menu a {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
 
-  width: 100vw;
+  width: 90vw;
   background-color: white;
   left:0;
   display: none;
