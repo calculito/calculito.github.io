@@ -108,6 +108,7 @@ body {
   #centermobmenu{
 display: flex;
 flex-direction: row;
+justify-content: space-around;
 align-items: center;
 }
 
@@ -962,8 +963,6 @@ img.alignright,
 
 .genesis-nav-menu a {
   color: #333;
-  /*display: inline-block;*/
-  padding: 30px 24px;
 }
 
 .genesis-nav-menu a:hover,
@@ -1360,12 +1359,11 @@ border: 0px solid #000000;
 
 .left-posts-io .post-item h2 a {
   height: 43rem;
-  /*padding-top: 33rem;*/
-  padding-top: 19rem;
+  padding-top: 10rem;
 }
 .left-posts-io .post-item:nth-child(3) h2,
 .left-posts-io .post-item:nth-child(3) h2 a {
-  /*margin-top: 26.5rem;*/
+
   height: 42rem;
   margin-top: -5rem;
 }
@@ -1373,9 +1371,7 @@ border: 0px solid #000000;
 /*		Right — Aside		*/
 
 .right-sidebar-widgets {
-  /*width: 30%;
-    margin: 0 2rem 0 0;*/
-    /* margin: 0rem 1rem 0 0;*/
+
   width: 32%;
   padding: 0rem 2rem 0 0rem;
   display: block;
@@ -1689,12 +1685,9 @@ menu a, .nav-primary .genesis-nav-menu a {
     margin-top: -23rem;
   }
 
-  .nav-primary .genesis-nav-menu a {
-    padding: 0.5rem 1rem;
-  }
+
 
   .top-posts-io .post-item {
-    /*margin: 0 0.75% 1.5% 0;*/
     width: 42.5%;
   }
 
@@ -1842,11 +1835,7 @@ menu a, .nav-primary .genesis-nav-menu a {
     text-align: center;
   }
 
-  .genesis-nav-menu a,
-  .genesis-nav-menu > .first > a,
-  .genesis-nav-menu > .last > a {
-    padding: 20px 16px;
-  }
+
 
   .site-header .search-form {
     margin: 16px auto;
@@ -2021,9 +2010,6 @@ menu a, .nav-primary .genesis-nav-menu a {
   }
 
 
-  .nav-primary .genesis-nav-menu a {
-    padding: 0rem 2rem;
-  }
 
 
 .widget-title {
@@ -2066,13 +2052,9 @@ menu a, .nav-primary .genesis-nav-menu a {
 }
 
 #menumob1 {
-  padding: 10px;
   display: none;
 }
-#menumob2 {
-  left: 1px;
-  margin: 5px;
-}
+
 
   .genesis-nav-menu,
   .site-header .search-form {
@@ -2229,10 +2211,9 @@ menu a, .nav-primary .genesis-nav-menu a {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-
-  width: 90vw;
+padding-right: 5vw;
+  width: 100vw;
   background-color: white;
-  left:0;
   display: none;
   border-bottom: 1px solid rgb(49, 49, 51);
 }
@@ -2243,7 +2224,6 @@ menu a, .nav-primary .genesis-nav-menu a {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -2303,6 +2283,7 @@ menu a, .nav-primary .genesis-nav-menu a {
   background: white;
     position: fixed;
   z-index: 2;
+  height: 10vw;
 }
 
 .main {
