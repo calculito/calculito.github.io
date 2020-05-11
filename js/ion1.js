@@ -12,18 +12,28 @@ function mymenu() {
   var y = document.getElementById("menumob3");
   var z = document.getElementById("menumob2");
   var n = document.getElementById("navigaid");
+  var e = document.getElementById("titelganz");
+  var u = document.getElementById("titelmenu");
+    u.style.display = "none";
+    e.style.display = "block";
   if (x.style.display === "flex") {
     x.style.display = "none";
     y.style.display = "flex";
     z.style.display = "none";
- 
   } else {
     x.style.display = "flex";
     y.style.display = "none";
     z.style.display = "flex";
   }
-  
 }
+
+function mune() {
+  var e = document.getElementById("titelganz");
+  var u = document.getElementById("titelmenu");
+    e.style.display = "none";
+    u.style.display = "block";
+}
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
