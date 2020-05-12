@@ -51,11 +51,8 @@ function game() {
     tm1.style.display = "none";
     tm2.style.display = "block";
     }, 3000);
-  }, 2000);
+  }, 3000);
      }, 500);
-
-
-
     },8000);
 }
 
