@@ -4,7 +4,7 @@ border: 1px solid pink;
 }*/
 
 /* ab hier scroll to top */
-#myBtn {
+#myBtn1 {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 80px; /* Place the button at the bottom of the page */
@@ -22,7 +22,7 @@ border: 1px solid pink;
   border-bottom: 2px solid white;
 }
 
-#myBtn:hover {
+#myBtn1:hover {
   background-color: rgb(255, 1, 1); /* Add a dark-grey background on hover */
     border-right: 0px solid white;
   border-bottom: 0px solid white;
@@ -33,18 +33,18 @@ border: 1px solid pink;
 /* ab hier sticky menu */
 
 
-.navigaion {
+.navigaion1 {
   background: white;
   position: fixed;
   z-index: 2;
   height: 10vw;
 }
 
-.main {
+.main1 {
   z-index: 1;
 }
 
-.sticky {
+.sticky1 {
   position: fixed;
   top:0 !important;
   z-index: 2;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
-.oberleiste{
+.oberleiste1{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.topnav{
+.topnav1{
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -89,39 +89,57 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;    
 }
 
-#menumob1{
+#menumob11{
   padding: 8px;
 }
-#titelmenu{ 
+#titelmenu1{ 
   display: none;
 }
-a:hover{
+#titelmenu2{ 
+  display: none;
+}
+.title-area1 a:hover{
   color:white;
   transition-property: color;
   transition-duration: 1s;
   transition-delay: 1s;
 }
+.box1{
+  color:white;
+  transition-property: color;
+  transition-duration: 1.5s;
+  transition-delay: .5s;
+}
+.box{
+  color:white;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-delay: 3s;
+}
 
-
-.nav-primary{
+.nav-primary1{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: flex-start;
 
 }
-#unten{
+#unten1{
   display: none;
   width: 30%;
 }
+.title-area1 a{
+  text-decoration: none;
+}
 
-.site-title{
+
+.site-title1{
     margin: 0;
     font-family: "itc_lubalin_graphdemi";
     font-size: 22px;
     text-align: right;
 }
-.site-description{
+.site-description1{
     margin: 0;
     text-align: right;
     line-height: 1.1;
@@ -132,7 +150,7 @@ justify-content: flex-start;
   font-size: 2rem;
 }
 
-#myLinks{
+#myLinks1{
     display: none;
     flex-direction: row;
     justify-content: flex-end;
@@ -140,79 +158,83 @@ justify-content: flex-start;
     height: 40px;
     margin-right: 5px;
 }
+a{
+  text-decoration: none;
+}
 
-
-#myLinks a{
+#myLinks1 a{
     color: white; 
     text-align: center;
+     text-decoration: none;
+
 }
-#myLinks fa{
+#myLinks1 fa{
     color: white !important; 
     text-align: center;
 }
-#myLinks a:hover{
+#myLinks1 a:hover{
     background-color: rgb(216, 214, 214) !important;
     color: ivory;
 }
-#myLinks a:nth-child(8) {
-  padding: 8px  ;
+#myLinks1 a:nth-child(8) {
+  padding: 10px  ;
   background: rgb(140, 140, 140);
 }
-#myLinks a:nth-child(7) {
-  padding: 8px  ;
+#myLinks1 a:nth-child(7) {
+  padding: 10px  ;
   background: rgb(150, 150, 150);
 }
-#myLinks a:nth-child(6) {
-  padding: 8px  ;
+#myLinks1 a:nth-child(6) {
+  padding: 10px  ;
   background: rgb(160, 160, 160);
 }
-#myLinks a:nth-child(5) {
-  padding: 8px  ;
+#myLinks1 a:nth-child(5) {
+  padding: 10px  ;
   background: rgb(170, 170, 170);
 }
-#myLinks a:nth-child(4) {
-  padding: 8px  ;
+#myLinks1 a:nth-child(4) {
+  padding: 10px  ;
   background: rgb(180, 180, 180);
 }
-#myLinks a:nth-child(3) {
-    padding: 8px;
+#myLinks1 a:nth-child(3) {
+    padding: 10px;
   background: rgb(190, 190, 190);
 }
-#myLinks a:nth-child(2) {
-    padding: 8px;
+#myLinks1 a:nth-child(2) {
+    padding: 10px;
   background: rgb(200, 200, 200);
 }
-#myLinks a:nth-child(1) {
+#myLinks1 a:nth-child(1) {
     padding: 5px;
 }
 
-#menumob2{
+#menumob21{
 display: none;  
 
 }
 
-.icon, .fa{
+.icon1, .fa{
     color: #333;
 }
-a{
+.site-inner1 a{
     color: #333;
     text-decoration: none;
     text-transform: uppercase;
 } 
-.site-inner{
+.site-inner1{
   display: block;
 float: left;
 width: 100%;
 }
-.flexy{
+.flexy1{
 display: flex;
 flex-direction: column;
 
 }
-.top-posts-io, 
-.left-posts-io,
-.drei-posts-io, 
-.vier-posts-io{
+.top-posts-io1, 
+.left-posts-io1,
+.drei-posts-io1, 
+.vier-posts-io1{
 display: flex;
 float: left;
 width: 100%;
@@ -222,8 +244,8 @@ flex-wrap: wrap;
 border-radius: 6px;
 box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
-.top-posts-io .post-item,
-.drei-posts-io .post-item {
+.top-posts-io1 .post-item1,
+.drei-posts-io1 .post-item1 {
     float: left;
     display: block;
     position: relative;
@@ -234,7 +256,7 @@ flex-wrap: wrap;
 border-radius: 6px;
 box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
-.left-posts-io .post-item {
+.left-posts-io1 .post-item1 {
     float: left;
     display: block;
     position: relative;
@@ -245,7 +267,7 @@ flex-wrap: wrap;
 border-radius: 6px;
 box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
-.left-posts-io .post-item {
+.left-posts-io1 .post-item1 {
     float: left;
     display: block;
     position: relative;
@@ -255,7 +277,7 @@ height: 350px;
 flex-wrap: wrap;
 }
 
-.left-posts-io{
+.left-posts-io1{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
@@ -263,13 +285,13 @@ float: left;
 width: 100%;
 }
 
-.left-posts-io .post-item:nth-child(3) {
+.left-posts-io1 .post-item1:nth-child(3) {
     width: 90%;
     height: 20rem;
 }
 
 
-.post-item h2 a {
+.post-item1 h2 a {
     font-family: "itc_lubalin_graphdemi";
     font-size: 1.6rem;
     text-align: center;
@@ -279,16 +301,16 @@ width: 100%;
     padding-top:6vw;
 }
 
-.vier-posts-io .post-item {
+.vier-posts-io1 .post-item1 {
     width:100%;
     height: 400px;
 }
 
-.site-container{
+.site-container1{
   margin-top:5vw;
 }
 
-.post-item {
+.post-item1 {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
@@ -316,7 +338,7 @@ width: 100%;
 
 }
 
-.post-item:hover {
+.post-item1:hover {
   -webkit-transform: scale(0.9);
   -moz--transform: scale(0.9);
   -ms-transform: scale(0.9);
@@ -324,12 +346,12 @@ width: 100%;
   transform: scale(0.9);
 
 }
-.post-item-content img{
+.post-item-content1 img{
   width:50px;
   height: 50px;
 }
 
-.post-item .categorias {
+.post-item1 .categorias1 {
     font-family: "helveticaneuelt_std_ltregular";
     padding-left: 1.5rem;
     background: url(images/io-categorias.png) left no-repeat transparent;
@@ -343,18 +365,18 @@ width: 100%;
     line-height: 1.6;
 }
 
-.post-item .categorias a {
+.post-item1 .categorias1 a {
     padding: 0 0.2rem;
     color: #fff;
 }
-div.textwidget{
+div.textwidget1{
   text-align: center;
   font-family: "georgiaitalic";
   font-size: 1.5vw;
   border: 1px solid black
 }
 
-h2.textwidget {
+h2.textwidget1 {
     font-family: "helveticaneuelt_stdregular";
     text-transform: uppercase;
     text-align: center;
@@ -365,36 +387,36 @@ h2.textwidget {
     color: #fff;
     margin: 0;
 }
-.instagram-io {
+.instagram-io1 {
     width: 100%;
 }
 
-.instagram-io img {
+.instagram-io1 img {
     width: 250px;
     height: 250px;
 }
 
-.instagram-io h2 {
+.instagram-io1 h2 {
     background: url(images/io-instagram-bkg.png) no-repeat right;
     text-align: left;
     border-bottom: 1px solid #333;
 }
-.maps{
+.maps1{
   border-top: 1px solid #333;
 }
-.maps img {
+.maps1 img {
     width: 75%;
     height: auto;
 }
-.mape{
+.mape1{
 width: 25%;
 display: flex;
 flex-direction: column;
 }
-.mape a{
+.mape1 a{
   text-align: center;
 }
-.cookiebox {
+.cookiebox1 {
     width: 80%;
     text-align: center;
     border: 1px solid #454649;
@@ -416,25 +438,25 @@ button {
     background-color: #59595b;
     float: right;
 }
-.c-cookies__btn{
+.c-cookies__btn1{
 font-size:14px;
 }
 
 @media only screen and (max-width: 768px){
 
-.site-title{
+.site-title1{
        font-size: 3.5vw;
 }
-.site-description{
+.site-description1{
     font-size: 2.5vw;
 }
 
-#myLinks a{
+#myLinks1 a{
   font-size: 3vw;
 }
-.top-posts-io .post-item,
-.left-posts-io .post-item,
-.drei-posts-io .post-item{
+.top-posts-io1 .post-item1,
+.left-posts-io1 .post-item1,
+.drei-posts-io1 .post-item1{
     float: left;
     display: block;
     position: relative;
@@ -442,21 +464,21 @@ font-size:14px;
     width: 100%;
     height: 300px;
 }
-.post-item .categorias {
+.post-item1 .categorias1 {
     font-size: 0.8rem !important;
     top: -1.3rem;
 }
 
-#unten {
+#unten1 {
     display: none;
     width: 100%;
 }
-.textwidget {
+.textwidget1 {
     text-align: center;
     font-family: "georgiaitalic";
     font-size: 3.5vw;
 }
-.cookiebox{
+.cookiebox1{
 display:flex;
 flex-direction: column;
 }
