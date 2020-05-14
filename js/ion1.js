@@ -15,23 +15,27 @@ AddOnloadEvent(game);   //hier wird die dritte funktion beim OnLoad aufgerufen
 var myVar;   //funktion für den loader
 var myInterv;  
 function loader() {
-  myVar = setTimeout(showPage, 5000);
+  myVar = setTimeout(showPage, 3000);
   blackwhite();
 }
 function showPage() {
   document.getElementById("loaddiv").style.display = "none";
-  clearInterval(myVar1);
+  clearInterval(myInterv);
 }
 function blackwhite() {
-     var x = 50;
+  var x = 50;
   var y = 50;
   var z = 0;
-  myVar1 = setInterval(function () {
+  myInterv = setInterval(function () {
  
     //document.getElementById("load1").style.height = x - 1 + "vh";
    // x--;
-    document.getElementById("load2").style.height = z + 1 + "vh";
+    
+    document.getElementById("load2").style.height = z + 1 + "vw";
+    document.getElementById("load1").style.opacity = 1 - (z / 100);
+    document.getElementById("load3").style.opacity = 1-(z/100);
     z++;
+    
    // document.getElementById("load3").style.height = y - 1 + "vh";
     //y--;
     }
