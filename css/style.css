@@ -893,7 +893,7 @@ img.alignright,
 
 
 .site-description {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 100;
   line-height: 1.1;
   font-family: "georgiaitalic";
@@ -1654,6 +1654,9 @@ nav {
 .site-title {
     font-size: 20px;
 }
+.site-description {
+    font-size: 18px;
+}
 menu a, .nav-primary .genesis-nav-menu a { 
     font-size: 18px;
 }
@@ -1777,6 +1780,12 @@ menu a, .nav-primary .genesis-nav-menu a {
   .site-header {
     height: 100px;
   }
+  .site-title {
+    font-size: 18px;
+  }
+  .site-description {
+    font-size: 16px;
+}
   .site-header .wrap {
     margin: 0;
   }
@@ -2008,8 +2017,12 @@ menu a, .nav-primary .genesis-nav-menu a {
   body {
     border: 10px solid white;
   }
-
-
+.site-title {
+    font-size: 13px;
+}
+.site-description {
+    font-size: 14px;
+}
 
 
 .widget-title {
