@@ -893,7 +893,7 @@ img.alignright,
 
 
 .site-description {
-  font-size: 2vw;
+  font-size: 16px;
   font-weight: 100;
   line-height: 1.1;
   font-family: "georgiaitalic";
@@ -1652,10 +1652,10 @@ nav {
     background-size: cover;
   }
 .site-title {
-    font-size: 3vw;
+    font-size: 20px;
 }
 menu a, .nav-primary .genesis-nav-menu a { 
-    font-size: 3vw;
+    font-size: 18px;
 }
   .site-header .wrap {
     margin: 0;
@@ -2212,7 +2212,7 @@ menu a, .nav-primary .genesis-nav-menu a {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
 padding-right: 5vw;
-  width: 95vw;
+  width: 93vw;
   background-color: white;
   display: none;
 
@@ -2283,7 +2283,7 @@ padding-right: 5vw;
   background: white;
     position: fixed;
   z-index: 2;
-  height: 10vw;
+  height: 55px;
 }
 
 .main {
