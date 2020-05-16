@@ -57,23 +57,25 @@ function hidecookies1() {
 function mymenu1() {
   var x = document.getElementById("myLinks1");
   var y = document.getElementById("menumob31");
-  var z = document.getElementById("menumob21");
+  var z = document.getElementById("menu-menu1");
   var n = document.getElementById("navigaid1");
   var e = document.getElementById("titelganz1");
   var u = document.getElementById("titelmenu1");
   var u1 = document.getElementById("titelmenu2");
-    u.style.display = "none";
+  var b = document.getElementById("myBtn1");
+  u.style.display = "none";
   e.style.display = "block";
   u1.style.display = "none";
   e.className = "";
   if (x.style.display === "flex") {
     x.style.display = "none";
     y.style.display = "flex";
-    z.style.display = "none";
+   z.style.display = "none";
   } else {
     x.style.display = "flex";
     y.style.display = "none";
     z.style.display = "flex";
+     b.style.display = "none";
   }
 }
 

@@ -83,10 +83,9 @@ h1, h2, h3, h4, h5, h6 {
 .topnav1{
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 100%;    
+
 }
 
 #menumob11{
@@ -152,22 +151,31 @@ justify-content: flex-start;
 
 #myLinks1{
     display: none;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 40px;
-    margin-right: 5px;
+    width: 93vw;
+    background-color: white;
+    top: 0;
+    /*height: 40px;
+    margin-right: 5px;*/
 }
 a{
   text-decoration: none;
 }
 
 #myLinks1 a{
-    color: white; 
-    text-align: center;
-     text-decoration: none;
+    color: #58595b;
+    font-family: "helveticaneuelt_stdregular";
+    text-transform: uppercase;
+    font-size: 2vw;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    width: 100%;
+    border-bottom: 1px solid #333;
 
 }
+
+
+
+
 #myLinks1 fa{
     color: white !important; 
     text-align: center;
@@ -176,36 +184,21 @@ a{
     background-color: rgb(216, 214, 214) !important;
     color: ivory;
 }
-#myLinks1 a:nth-child(8) {
-  padding: 10px  ;
-  background: rgb(140, 140, 140);
+
+#centermobmenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
 }
-#myLinks1 a:nth-child(7) {
-  padding: 10px  ;
-  background: rgb(150, 150, 150);
+#contact{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
 }
-#myLinks1 a:nth-child(6) {
-  padding: 10px  ;
-  background: rgb(160, 160, 160);
-}
-#myLinks1 a:nth-child(5) {
-  padding: 10px  ;
-  background: rgb(170, 170, 170);
-}
-#myLinks1 a:nth-child(4) {
-  padding: 10px  ;
-  background: rgb(180, 180, 180);
-}
-#myLinks1 a:nth-child(3) {
-    padding: 10px;
-  background: rgb(190, 190, 190);
-}
-#myLinks1 a:nth-child(2) {
-    padding: 10px;
-  background: rgb(200, 200, 200);
-}
-#myLinks1 a:nth-child(1) {
-    padding: 5px;
+#contact a{
+  padding: 10px;
 }
 
 #menumob21{
@@ -472,7 +465,7 @@ font-size:14px;
 }
 
 #myLinks1 a{
-  font-size: 3vw;
+  font-size: 14px;
 }
 .top-posts-io1 .post-item1,
 .left-posts-io1 .post-item1,
