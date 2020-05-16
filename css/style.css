@@ -1078,7 +1078,7 @@ img.alignright,
   font-family: "helveticaneuelt_stdregular";
   text-transform: uppercase;
   font-size: 2vw;
-  padding: 2rem 0rem;
+  padding: 1.5rem 0rem;
 width: 100%;
   border-bottom: 1px solid #333;
 }
@@ -2049,7 +2049,9 @@ menu a, .nav-primary .genesis-nav-menu a {
  
 }
 
-
+.fa-arrow-circle-o-up{
+  font-size: 8vw!important;
+}
 
 /*
   #menu-item-532,

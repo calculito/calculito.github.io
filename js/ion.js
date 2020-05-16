@@ -11,17 +11,20 @@ function mymenu() {
   var x = document.getElementById("myLinks");
   var y = document.getElementById("menumob2");
   var z = document.getElementById("menumob1");
-   var w = document.getElementById("firma");
+  var w = document.getElementById("firma");
+  var b = document.getElementById("myBtn");
   if (x.style.display === "block") {
     x.style.display = "none";
     y.style.display = "block";
     z.style.display = "none";
     w.style.display = "block";
+    
   } else {
     x.style.display = "block";
     y.style.display = "none";
     z.style.display = "block";
     w.style.display = "none";
+    b.style.display = "none";
   }
   
 }
