@@ -204,9 +204,10 @@ width: 100%;
 text-transform: uppercase;
 }
 .borderx{
-background-color: rgb(38, 50, 65);
+background-color: rgb(51, 108, 179);
 color: whitesmoke;
 text-transform: uppercase;
+width: 100%;
 }
 .borderx a{
 text-decoration: none;
@@ -258,15 +259,7 @@ height: 5%;
 }
 }
 @media only screen and (max-width: 400px){
-.titleseite{
-display: none;
-}
-.post-item1x{
-width: 90%;
-}
-.post-item-content1x{
-width: 90%;
-}
+
 #oben{
 height: 3%;
 }
@@ -278,10 +271,10 @@ height: 3%;
 height: 3%;
 }
 .borderx .categorias1x a {
-font-size: 10px;
+font-size: 11px;
 }
 
 .heretitlex {
-    height: 28vw;
+    height: 24vw;
 }
 }
