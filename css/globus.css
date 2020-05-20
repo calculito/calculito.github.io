@@ -221,7 +221,15 @@ font-family: "helveticaneuelt_std_ltregular";
 padding-left: 2rem;
 background: url(images/io-categorias.png) left no-repeat transparent;
 }
-
+.dot {
+ text-align: center;
+ visibility: hidden;
+  height: 45px;
+  width: 45px;
+  border: solid 1px whitesmoke;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 
 @media only screen and (max-width: 768px){
