@@ -455,6 +455,9 @@ font-size:14px;
   align-items: center;
   font-size: 4vw;
 }
+h1 {
+ font-size: 18px;
+}
 
 
 @media only screen and (max-width: 768px){
