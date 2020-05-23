@@ -1,0 +1,264 @@
+/* nur zur hilfe*/
+/*div{
+border: 1px solid pink;
+}*/
+
+/* ab hier scroll to top */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 80px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  /*border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: orangered; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 4px 8px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 3vw; /* Increase font size */
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 1, 1); /* Add a dark-grey background on hover */
+    border-right: 0px solid white;
+  border-bottom: 0px solid white;
+    border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+/* ende scroll to top */
+
+
+
+body{
+  zoom: 1;
+  background-color: white;
+  color:#333;
+  margin:3vw;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: "itc_lubalin_graphdemi";
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.site-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    top: 10px;
+    width: 100%;
+}
+#titelganz{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ justify-content: flex-end;
+}
+
+.site-title{
+    margin: 0;
+    font-family: "itc_lubalin_graphdemi";
+    font-size: 22px;
+    text-align: right;
+}
+.site-description{
+    margin: 0;
+    text-align: right;
+    line-height: 1.1;
+    font-size: 16px;
+    font-family: "georgiaitalic";
+}
+
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  color: white;
+}
+
+#contact{
+ width: 100%;
+ margin:20px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+border-radius: 5px;
+border: solid 1px #333;
+}
+#contact a{
+  padding: 10px;
+   color: #333;
+ text-decoration: none;
+}
+
+.site-container a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.site-container{
+  display: block;
+float: left;
+width: 100%;
+}
+.flexy1{
+display: flex;
+flex-direction: column;
+
+}
+.top-posts, 
+.zwei-posts,
+.drei-posts, 
+.vier-posts{
+display: flex;
+float: left;
+width: 100%;
+position: relative;
+overflow: auto;
+flex-wrap: wrap;
+border-radius: 6px;
+border: 1px solid #333;
+margin-top: 5px;
+}
+.top-posts .post-item,
+.drei-posts .post-item {
+    float: left;
+    display: block;
+    position: relative;
+    margin: 1.5% 1.5%;
+    width: 30%;
+height: 300px;
+flex-wrap: wrap;
+border-radius: 6px;
+background-color: rgb(222, 222,222);
+box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
+}
+.zwei-posts .post-item {
+    float: left;
+    display: block;
+    position: relative;
+    margin: 1.5% 1.5%;
+    width: 40%;
+height: 350px;
+flex-wrap: wrap;
+border-radius: 6px;
+background-color:rgb(222, 222,222);
+box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
+}
+
+
+.zwei-posts{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+float: left;
+width: 100%;
+}
+.zwei-posts .post-item:nth-child(3) {
+    width: 90%;
+    height: 20rem;
+}
+
+.vier-posts .post-item {
+    width:100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.site-container{
+  margin-top:5px;
+}
+.post-item {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  background-size: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+}
+.post-item:hover {
+box-shadow: 14px 10px 10px -1px rgba(0,0,0,0.55);
+}
+.post-item-title{
+background-color: rgb(207, 205, 205);
+padding-left: 10px;
+}
+.post-item-content{
+ padding-left: 10px;
+}
+button {
+    /* background-color: #333; */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2vw;
+    font-weight: 300;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    width: auto;
+    font-family: "helveticaneuelt_stdregular";
+    background-color: #59595b;
+    float: right;
+}
+input{
+ width: 80%;
+ margin-top: 2px;
+}
+.labtitel{
+font-weight: bold  ;
+color: grey;
+}
+.check{
+ display: flex;
+ justify-content: flex-start;
+ background-color: white;
+ border: 1px solid initial;
+ width: 85%;
+ margin-bottom: 12px;
+}
+.check input {
+width: auto;
+}
+
+@media only screen and (max-width: 768px){
+.site-title{
+       font-size: 18px;
+}
+
+.top-posts .post-item,
+.zwei-posts .post-item,
+.drei-posts .post-item{
+    float: left;
+    display: block;
+    position: relative;
+    margin: 1.5% 1.5%;
+    width: 100%;
+    height: 300px;
+}
+
+.check{
+
+ margin-bottom: 7px;
+}
+}
