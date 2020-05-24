@@ -23,7 +23,7 @@
 	<link rel="alternate" href="leer" hreflang="en">
 	<link rel="Shortcut Icon" href="./images/favicon.png" type="image/x-icon">
 	<link rel="canonical" href="leer">
-	<link rel="preload" href="./css/astyle.css" as="style" />
+	<link rel="preload" href="./css/eval.css" as="style" />
 	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
  <link rel="dns-prefetch" href="https://s.w.org/">
  <link rel="apple-touch-icon" href="./images/favicon.png">
@@ -40,7 +40,7 @@
 		<header class="site-header">
 					<div id="titelganz">
 						<p class="site-title" itemprop="headline">
-Formular zur Erstellung einer Evaluierung zur aktuellen Situation</p>
+Formular zur Erstellung einer Evaluierung der aktuellen Situation</p>
 						<p class="site-description" itemprop="description">Reinigung - Hygiene - Desinfektion</p>
      </div>
      										<div id="contact">
@@ -128,15 +128,16 @@ Formular zur Erstellung einer Evaluierung zur aktuellen Situation</p>
   <label class="labtitel">Art der Reinigung:</label><br>
   <div class="check">
   <input type="checkbox" id="eigenr" name="eigenr" value="eigenr">
-  <label for="eigenr"> Eigenreinigung</label><br>
+  <label for="eigenr"> Eigen</label><br>
    <input type="checkbox" id="fremdr" name="fremdr" value="fremdr">
-  <label for="fremdr"> Fremdreinigung</label><br>
-  <input style="border: 0px; background-color:silver; margin-left: 3px; " type="text" id="rfname" name="rfname" value="">
+  <label for="fremdr"> Fremd</label><br>
+  <input style="border: 0px; background-color:silver; margin-left: 3px; color:whitesmoke " type="text" id="rfname" name="rfname" value=" Name, Preis mon.">
   </div>
   <!-- --- -->
   
- <label class="labtitel">Faktor der Reinigung:</label><br>
+
  <div class="check">
+   <label class="labtitel">Faktor: </label><br>
     <select name="top5">
       <option>1x</option>
       <option>2x</option>
@@ -188,12 +189,13 @@ Formular zur Erstellung einer Evaluierung zur aktuellen Situation</p>
   <label for="eigend"> Eigen</label><br>
    <input type="checkbox" id="fremdd" name="fremdd" value="fremdd">
   <label for="fremdd"> Fremd</label><br>
-  <input style="border: 0px; background-color:silver; margin-left: 3px; " type="text" id="rdfname" name="dfname" value="">
+  <input style="border: 0px; background-color:silver; margin-left: 3px; color:whitesmoke" type="text" id="rdfname" name="dfname" value=" Name, Preis mon.">
   </div>
   <!-- --- -->
   
- <label class="labtitel">Faktor der Desinfektion:</label><br>
+ 
  <div class="check">
+  <label class="labtitel">Faktor:</label><br>
     <select name="top5d">
       <option>1x</option>
       <option>2x</option>
@@ -241,14 +243,18 @@ Formular zur Erstellung einer Evaluierung zur aktuellen Situation</p>
       <div class="post-item-title"><h4>GRUND-/GLASREINIGUNG</h4></div>
 						<div class="post-item-content">
 <form action="">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br>
- <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br>
-   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="boden">Bodenarten:</label><br>
+  <input type="text" id="boden" name="boden" value="Parkett, Stein, PVC, Teppich"><br>
+  <label for="beschichtung">Beschichtung:</label><br>
+  <input type="text" id="beschichtung" name="beschichtung" value="Öl, Lack, Metallic"><br>
+ <label for="wannundwerg">Wann, wer, Preis:</label><br>
+  <input type="text" id="wannundwerg" name="wannundwerg" value=""><br>
+   <label for="glasart">Verglasung, Rahmen:</label><br>
+  <input type="text" id="glasart" name="glasart" value=""><br>
+     <label for="hub">Hilfsmittel:</label><br>
+  <input type="text" id="hub" name="hub" value="Stange, Leiter, Hubsteiger"><br>
+  <label for="wannundwergl">Wann, wer, Preis:</label><br>
+  <input type="text" id="wannundwergl" name="wannundwergl" value=""><br>
 </form> 
 						</div>
 					</div>
@@ -336,8 +342,8 @@ Formular zur Erstellung einer Evaluierung zur aktuellen Situation</p>
    </div>
 
    </div>
-      <form action="">
-  <input type="submit" value="Submit" style="background-color: seagreen; color: seashell; font-size: larger; width: 100%; text-align: center; height: 7vh;">
+      <form onclick="window.print();return false;">
+  <input type="submit" value="Print page" style="background-color: seagreen; color: seashell; font-size: larger; width: 100%; text-align: center; height: 7vh;">
   <br><br>
 </form> 
 		<!-- ende hauptbereich  -->
