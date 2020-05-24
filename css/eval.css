@@ -141,7 +141,7 @@ margin-top: 5px;
 height: 300px;
 flex-wrap: wrap;
 border-radius: 6px;
-background-color: rgb(222, 222,222);
+background-color: rgb(230, 230, 230);
 box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
 .zwei-posts .post-item {
@@ -153,7 +153,7 @@ box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 height: 350px;
 flex-wrap: wrap;
 border-radius: 6px;
-background-color:rgb(222, 222,222);
+background-color:rgb(230, 230, 230);
 box-shadow: 11px 7px 10px -3px rgba(0,0,0,0.35);
 }
 
@@ -202,7 +202,7 @@ width: 100%;
 box-shadow: 14px 10px 10px -1px rgba(0,0,0,0.55);
 }
 .post-item-title{
-background-color: rgb(207, 205, 205);
+background-color: rgb(240, 240, 240);
 padding-left: 10px;
 }
 .post-item-content{
@@ -223,24 +223,45 @@ button {
     float: right;
 }
 input{
- width: 80%;
+ width: 85%;
  margin-top: 2px;
+ font-family: "helveticaneuelt_stdregular";
+ font-size: 14px;
 }
 .labtitel{
-font-weight: bold  ;
+
 color: rgb(61, 61, 61);
 margin-right:10px;
+margin-bottom: 5px;
+font-family: "itc_lubalin_graphdemi";
+font-size: 16px;
 }
 .check{
  display: flex;
  justify-content: flex-start;
- background-color: white;
- border: 1px solid initial;
  width: 85%;
  margin-bottom: 12px;
 }
 .check input {
 width: auto;
+border: none;
+margin-left: 20px;
+}
+.inputField{
+ display: flex;
+ justify-content: flex-start;
+ background-color: white;
+ width: 85%;
+ margin-bottom: 12px;
+}
+.labelinput{
+ display: flex;
+ justify-content: flex-start;
+ margin-top:12px;
+}
+.inputField input {
+border: none;
+
 }
 
 @media only screen and (max-width: 768px){
@@ -260,7 +281,9 @@ width: auto;
 }
 
 .check{
-
  margin-bottom: 7px;
+}
+.fa-arrow-circle-o-up{
+ font-size: 7vw!important;
 }
 }
