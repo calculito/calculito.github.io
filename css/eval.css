@@ -229,11 +229,12 @@ input{
  font-size: 14px;
 }
 .labtitel{
-
 color: rgb(61, 61, 61);
 margin-right:10px;
 margin-bottom: 5px;
-font-family: "itc_lubalin_graphdemi";
+/*font-family: "itc_lubalin_graphdemi";*/
+font-family: "Poppins",sans-serif;
+font-weight: bold;
 font-size: 16px;
 }
 .check{
@@ -261,7 +262,10 @@ margin-left: 20px;
 }
 .inputField input {
 border: none;
-
+}
+label{
+font-family: "Poppins",sans-serif;
+font-size: 14px;
 }
 
 @media only screen and (max-width: 768px){

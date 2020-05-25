@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<title>DiagonaLE</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="Hilfsformular zur Evaluierung der aktuellen Situation">
+	<meta property="og:locale" content="de_DE">
+	<meta property="og:locale:alternate" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Evaluierung Reinigung - Hygiene - Desinfektion">
+	<meta property="og:description" content="Hilfsformular zur Evaluierung der aktuellen Situation">
+	<meta property="og:url" content="leer">
+	<meta property="og:site_name" content="Evaluierung Reinigung - Hygiene - Desinfektion">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="Hilfsformular zur Evaluierung der aktuellen Situation">
+	<meta name="twitter:title" content="Evaluierung Reinigung - Hygiene - Desinfektion">
+	<meta name="twitter:site" content="@calculito">
+	<meta name="twitter:domain" content="Evaluierung Reinigung - Hygiene - Desinfektion">
+	<link rel="alternate" href="leer" hreflang="de">
+	<link rel="alternate" href="leer" hreflang="en">
+	<link rel="Shortcut Icon" href="./images/favicon.png" type="image/x-icon">
+	<link rel="canonical" href="leer">
+
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+ <link rel="dns-prefetch" href="https://s.w.org/">
+ <link rel="apple-touch-icon" href="./images/favicon.png">
+	<link rel="stylesheet" id="google-fonts-css" href="./css/css.css" type="text/css" media="all">
+	<link rel="stylesheet" id="io-fonts-css" href="./css/fonts.css" type="text/css" media="all">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+ <script type="text/javascript" src="./js/jquery.js"></script>
+ <script type="text/javascript" src="./js/diagonale.js"></script>
+<style>
+body {
+margin: 0px;
+  font-family:sans-serif;
+}
+
+div {
+  height:100vh;
+  -webkit-transition: all 3s 1s ease-in-out;
+  -moz-transition: all 3s 1s ease-in-out;
+  -ms-transition: all 3s 1s ease-in-out;
+  -o-transition: all 3s 1s ease-in-out;
+  transition: all 3s 1s ease-in-out;
+}
+
+
+.three {
+  width:1%;
+  background: linear-gradient(to top right, #fff calc(50% - 1px), #aaa, #fff calc(50% + 1px) )
+  
+}
+
+</style>
+</head>
+
+<body>
+ <div class="three" id="dashier"></div>
+
+<script>
+ var was = document.getElementById("dashier");
+var a;
+var i=1;
+function dokumentGeladen(event) {
+weite(i);
+}
+
+function weite(i){
+if(i<101) { 
+was.style.width = "100%";
+setTimeout(function() {
+  was.style.width = "0%";
+ hohe(i);}, 150);
+
+}}
+
+function hohe(i){ 
+if(i<100){ 
+ was.style.height = 100-i + "vh";
+ 
+ i++;
+ setTimeout(function() {
+ 
+ weite(i);}, 100);
+ 
+}}
+/*
+var i = 1;     
+function weite() {         //  create a loop function
+  setTimeout(function() {   //  call a 3s setTimeout when the loop is called
+    was.style.width = i+"%";   //  your code here
+    i++;                    //  increment the counter
+    if (i < 101) {           //  if the counter < 10, call the loop function
+      weite();             //  ..  again which will trigger another 
+    }                       //  ..  setTimeout()
+  }, 50)
+}*/
+
+
+ /*
+for(var h = 1; h < 101; h++){
+ var htimer = setInterval(() => {
+ for(var i = 1; i < 101; i++){
+  var timer = setInterval(() => {
+  was.style.width = i+"%"
+ }, 200); }
+ was.style.height = 100-h + "vh"
+}, 200); }}*/
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', dokumentGeladen, false);
+</script>
+</body>
+</html>
