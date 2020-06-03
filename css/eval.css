@@ -260,6 +260,12 @@ margin-left: 20px;
  justify-content: flex-start;
  margin-top:12px;
 }
+.plz{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 85%;
+}
 .inputField input {
 border: none;
 }
