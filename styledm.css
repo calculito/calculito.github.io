@@ -1,0 +1,554 @@
+html, body {
+  background-color: black;
+  height: 86%;
+}
+/* from here header with main menu*/
+header{
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid orangered;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.weathermom {
+  /*width: 70%;*/
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  justify-self: flex-start;
+}
+.weather {
+  /*width: 70%;*/
+  display: flex;
+ flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.iconmom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconsoc{
+  width: 40px;
+  height: 40px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    border-bottom: 1px solid #0d98ba;
+}
+.menu_cen{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.menu{
+    color:  rgb(197, 198, 211);
+    font-size: 14px;
+    border-left: 1px solid orangered;
+    line-height: 1;
+    float: left;
+}
+
+.menu:hover {
+  color:rgb(182, 183, 201);
+  font-size: 17px;
+  text-decoration: none;
+  display: flex;
+}
+/* from here main*/
+main {
+  background-image: url(./images/hotel1.jpg);
+  height: 100%;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+}
+
+ .hauptfeld {    /*notwendig*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+   /*flex-wrap: wrap;*/
+}
+#a21{
+  background-color: black;
+  border-top: 1px solid orangered;
+}
+
+#footer1 { /*corona info*/
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  width: 60%;
+  border-bottom: 1px solid orangered;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+
+
+.zoomBOut {
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+  border-bottom-right-radius: 30px;
+  width: 100%;
+  display: flex;
+  justify-self: flex-start;
+}
+.zoomBIn {
+  width: 300px;
+  height: 100%;
+  background-image: url('https://www.westernexterminator.com/blog/wp-content/uploads/2017/06/Hotel-room.jpg');
+  background-position: center;
+  background-size: cover;
+  border-bottom-right-radius: 30px;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+.zoomBIn:hover{
+  transform: scale(1.5);
+}
+
+#bigpict {
+  background-image: url('https://www.westernexterminator.com/blog/wp-content/uploads/2017/06/Hotel-room.jpg');
+  height: 450px;
+  width: 750px;
+  border-top-right-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+
+/*menu rechts*/
+
+
+#menumom {
+  display: flex;
+  flex-direction: row;
+ }
+#menugrau {
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: row;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: inherit;
+ }
+
+#klbu {
+  display: flex;
+  flex-direction: column;}
+
+
+  #textx {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .x {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+/* from here login form*/
+#logn{
+  background-color: #b5b7c9;
+  color: #4e516b;
+  width: 300px;
+  height: 310px;
+  }
+  #textlogn{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+
+  #loginform {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  label{
+    margin-bottom: 2px;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #5d5e61;
+  }
+  
+  input[type=submit] {
+    text-align: center;
+    width: 100%;
+    background-color: #8b91ad;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+  background-color: #2e3347;
+  }
+/* from here calendar*/
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 310px;
+  }
+  #start{
+    background-color: #575a64;
+  }
+  #end{
+    background-color: #575a64;
+  }
+
+/* from here contact*/
+.contact{
+  color: #8b91ad;
+  font-weight: bold;
+  width: 300px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.infotxt{
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: center;
+
+  color: black
+}
+
+/* ELIZA*/
+aside {
+  background-color: white;
+}
+
+.chatBox {
+  color: #4e516b;
+	width: 300px;
+	height: 250px;
+  border-bottom: 2px solid;
+  border-color: #4e516b;
+	margin-bottom: 3px;
+	font-size: 14px;
+  overflow: auto;
+  background-color: white;
+}
+
+.msg {
+  color: #b5b7c9;
+  font-size: 13px;
+  width: 200px;
+  border: none;
+  background-color: white;
+}
+
+.msg:hover {
+  color: white;
+}
+
+.chatBtn {
+  color: #4e516b;
+  width: 95px;
+  font-size: 14px;
+  border: none;
+  background-color: white;
+}
+
+.chatBtn:hover {
+  background-color: whitesmoke;
+}
+
+/*tabs menu rechts mitte*/
+/* Style the tab */
+.tab {
+  width: 90px;
+  height: 160px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.tabbl {
+  height: 160px;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#tablinks1a {
+  height: 40px;
+  border: none;
+  background-color: #b5b7c9;
+  color: #b5b7c9;
+}
+
+#tablinks2a{
+    height: 40px;
+    border: none;
+    background-color: #8b91ad;
+    color: #8b91ad;
+  }
+
+#tablinks3a {
+      height: 40px;
+      border: none;
+      background-color: #4e516b;
+      color: #4e516b;
+    }
+
+#tablinks4a {
+        height: 40px;
+        border: none;
+        background-color: #2e3347;
+        color: #2e3347;
+      }
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  height: 40px;
+  font-size: 14px;
+  color: white;
+  background-color: inherit;
+  font-weight: bold;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+
+#tablinks1:hover{
+  border-top-left-radius: 10px;
+  background-color: #b5b7c9;
+  color: white;}
+
+#tablinks2:hover{
+  background-color: #8b91ad;
+  color: white;}
+
+#tablinks3:hover{
+  background-color: #4e516b;
+  color: white;}
+
+#tablinks4:hover{
+  border-bottom-left-radius: 10px;
+  background-color: #2e3347;
+  color: white;}
+
+/* Create an active/current tablink class */
+#tablinks1.active {
+border-top-left-radius: 10px;
+border-bottom-left-radius: 0;
+background-color: #b5b7c9;
+}
+
+#tablinks2.active {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #8b91ad;
+  }
+
+#tablinks3.active {
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+background-color: #4e516b;
+}
+
+#tablinks4.active {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 10px;
+  background-color: #2e3347;
+  }
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  height: 350px;
+  padding: 6px 12px;
+  width: auto;
+  border-left: none;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/*from here fussnote*/
+footer {
+  /*border-top: 8px solid #4e516b;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.textN1 {
+  background-color: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  width: 60%;
+  color: #ccc;
+  text-decoration: #ccc;
+}
+#mail {
+  color: rgb(168, 175, 206);
+}
+#mail:hover {
+  color:blanchedalmond;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #000000;
+  margin: 25% auto; /* 15% from the top and centered */
+  border: 1px solid orangered;
+  width: 75%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.BBc{
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid orangered;
+}
+.BBe, .BBd, .BBf{
+  height: 25px;
+  width: 25px;
+  color: #8b91ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: none;
+}
+.BBCA{
+  color: black;
+}
+
+.BKc{
+  border: none;
+  background-color: darkgray;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  height: 45px;
+}
+ .Cc{    
+  width: 100%;
+  height: 95px;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ border-top: 1px solid orangered
+}
+
+.Ce{    
+  color: #8b91ad;
+  background-color: black;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+ justify-content: flex-start;
+}
+
+
+.Cl{    
+  border-bottom: 1px solid orangered;
+  display: flex;
+  flex-direction: column;
+}
+.Cn {
+  border: none;
+  color: #8b91ad;
+  background-color: black;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 45px;
+}
